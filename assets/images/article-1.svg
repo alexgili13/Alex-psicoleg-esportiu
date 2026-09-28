@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+<rect width="1000" height="600" fill="#DCD6C7"/>
+<g fill="none" stroke="#14171A" stroke-width="2" opacity="0.35">
+<circle cx="500.0" cy="240.0" r="84.00000000000001"/>
+<path d="M 250.0 491.99999999999994 Q 500.0 330.0 750.0 491.99999999999994"/>
+</g>
+<text x="50%" y="92%" text-anchor="middle" font-family="Inter, sans-serif" font-size="35.0" fill="#14171A" opacity="0.55">IMATGE ARTICLE — DEMO</text>
+</svg>

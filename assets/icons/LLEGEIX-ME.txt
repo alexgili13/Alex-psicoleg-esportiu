@@ -1,0 +1,1 @@
+Icones addicionals (opcional). Les icones de la web son SVG en linia dins de js/icons.js; normalment no cal afegir res aqui.

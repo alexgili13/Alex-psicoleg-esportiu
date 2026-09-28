@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title id="page-title">Article — [EL TEU NOM]</title>
+<meta name="description" id="page-description" content="">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Saltar al contingut</a>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand"><span class="dot" aria-hidden="true"></span><span id="brand-name">[EL TEU NOM]</span></a>
+    <nav class="main-nav" style="position:static;transform:none;border:none;flex-direction:row;padding:0;">
+      <a href="index.html#articles">Articles</a>
+      <a href="index.html#news">Actualitat</a>
+      <a href="index.html#contact">Contacte</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Canvia entre mode clar i fosc">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.2 4.2l1.6 1.6M18.2 18.2l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.2 19.8l1.6-1.6M18.2 5.8l1.6-1.6"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8.5 8.5 0 1110 3.5 6.8 6.8 0 0020 14.5z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <div class="container" style="padding-top:24px;">
+    <a href="index.html" class="btn btn-ghost btn-sm" id="back-link">← Tornar</a>
+  </div>
+
+  <div id="post-root"></div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-bottom" style="border-top:none;">
+    <span id="footer-copy"></span>
+    <div class="legal-links">
+      <a href="privacitat.html">Privacitat</a>
+      <a href="cookies.html">Cookies</a>
+      <a href="avis-legal.html">Avís legal</a>
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="js/post.js"></script>
+</body>
+</html>

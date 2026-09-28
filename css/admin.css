@@ -1,0 +1,80 @@
+/* Estils del panell d'administració. Reutilitza els tokens de styles.css. */
+body{ background: var(--paper-dim); }
+
+.admin-shell{ display:grid; grid-template-columns: 260px 1fr; min-height:100vh; }
+
+.admin-side{ background: var(--ink); color: var(--paper); display:flex; flex-direction:column; padding:22px 16px; position:sticky; top:0; height:100vh; }
+.admin-brand{ display:flex; align-items:center; gap:10px; padding:8px 10px 22px; border-bottom:1px solid rgba(242,239,232,.14); margin-bottom:14px; }
+.admin-brand .dot{ width:10px; height:10px; border-radius:50%; background:var(--accent); flex:none; }
+.admin-brand strong{ display:block; font-size:.92rem; }
+.admin-brand small{ color:#B7B2A4; font-size:.74rem; }
+.admin-nav{ display:flex; flex-direction:column; gap:2px; flex:1; overflow:auto; }
+.admin-nav button{ text-align:left; background:none; border:none; color:#D8D4C8; padding:11px 12px; border-radius:8px; font-size:.88rem; cursor:pointer; }
+.admin-nav button:hover{ background: rgba(242,239,232,.08); }
+.admin-nav button.active{ background: var(--accent); color: var(--accent-ink); font-weight:600; }
+.admin-back{ color:#B7B2A4; font-size:.82rem; padding:12px 10px 4px; text-decoration:none; }
+.admin-back:hover{ color:var(--paper); }
+
+.admin-main{ padding: 28px clamp(20px,3vw,44px) 80px; max-width: 980px; }
+.admin-topbar{ display:flex; justify-content:space-between; align-items:flex-start; gap:20px; flex-wrap:wrap; margin-bottom:8px; }
+.admin-topbar h1{ font-family: var(--font-display); font-size:1.7rem; margin:0; }
+.save-indicator{ font-size:.8rem; color: var(--ink-soft); margin:4px 0 0; }
+.save-indicator.saved{ color: var(--focus-green); }
+.admin-actions{ display:flex; gap:8px; flex-wrap:wrap; }
+
+.admin-notice{ display:none; background: var(--focus-green-soft); color: var(--focus-green); border:1px solid var(--focus-green); padding:12px 16px; border-radius: var(--radius-s); font-size:.86rem; margin: 14px 0; }
+.admin-notice.visible{ display:block; }
+.admin-notice.warn{ background:#FBEFDD; color:#7A4B12; border-color:#D9A441; }
+
+.admin-panel{ background: var(--paper-raise); border:1px solid var(--line); border-radius: var(--radius-m); padding: clamp(20px,3vw,34px); margin-top:18px; }
+.admin-panel h2{ font-family:var(--font-display); font-size:1.3rem; margin:0 0 6px; }
+.admin-panel > .panel-desc{ color:var(--ink-soft); font-size:.9rem; margin-bottom:26px; max-width:70ch; }
+
+.a-field{ display:grid; gap:6px; margin-bottom:18px; }
+.a-field label{ font-size:.82rem; font-weight:600; }
+.a-field .hint{ font-size:.76rem; color: var(--ink-soft); font-weight:400; }
+.a-field input[type=text], .a-field input[type=email], .a-field input[type=url], .a-field input[type=date], .a-field input[type=number], .a-field textarea, .a-field select{
+  background: var(--paper); border:1px solid var(--line-strong); border-radius: var(--radius-s); padding:11px 12px; font-family:inherit; font-size:.92rem; color:var(--ink); width:100%;
+}
+.a-field textarea{ min-height:90px; resize:vertical; }
+.a-checkbox{ display:flex; align-items:center; gap:10px; font-size:.88rem; font-weight:600; margin-bottom:18px; }
+.a-checkbox input{ width:18px; height:18px; }
+
+.a-row{ display:grid; grid-template-columns: 1fr 1fr; gap:16px; }
+@media (max-width: 640px){ .a-row{ grid-template-columns:1fr; } }
+
+.lang-tabs{ display:flex; gap:4px; margin-bottom:8px; }
+.lang-tabs button{ font-size:.72rem; font-weight:700; padding:5px 10px; border-radius:999px; border:1px solid var(--line-strong); background:transparent; color:var(--ink-soft); cursor:pointer; }
+.lang-tabs button.active{ background: var(--ink); color:var(--paper); border-color:var(--ink); }
+.lang-pane{ display:none; }
+.lang-pane.active{ display:block; }
+
+.file-widget{ border:1px dashed var(--line-strong); border-radius: var(--radius-s); padding:14px; display:flex; gap:14px; align-items:center; }
+.file-widget .prev{ width:64px; height:64px; border-radius:8px; overflow:hidden; background:var(--paper-dim); flex:none; display:flex; align-items:center; justify-content:center; font-size:.7rem; color:var(--ink-soft); text-align:center; }
+.file-widget .prev img{ width:100%; height:100%; object-fit:cover; }
+.file-widget .file-info{ flex:1; }
+.file-widget .file-info small{ display:block; color:var(--ink-soft); font-size:.76rem; margin-top:4px; }
+.file-widget .file-actions{ display:flex; gap:8px; flex-wrap:wrap; }
+
+.collection-toolbar{ display:flex; justify-content:space-between; align-items:center; margin-bottom:18px; }
+.collection-list{ display:flex; flex-direction:column; gap:10px; }
+.collection-item{ border:1px solid var(--line); border-radius: var(--radius-s); background: var(--paper); }
+.collection-item summary{ list-style:none; display:flex; justify-content:space-between; align-items:center; padding:14px 16px; cursor:pointer; gap:12px; }
+.collection-item summary::-webkit-details-marker{ display:none; }
+.collection-item summary .title{ display:flex; align-items:center; gap:10px; font-weight:600; font-size:.92rem; }
+.collection-item summary .badge-off{ font-size:.68rem; text-transform:uppercase; letter-spacing:.03em; background:var(--paper-dim); color:var(--ink-soft); padding:2px 8px; border-radius:999px; }
+.collection-item .item-actions{ display:flex; gap:6px; }
+.icon-btn{ width:32px; height:32px; border-radius:8px; border:1px solid var(--line-strong); background:transparent; color:var(--ink); cursor:pointer; display:flex; align-items:center; justify-content:center; }
+.icon-btn:hover{ background:var(--paper-dim); }
+.icon-btn svg{ width:15px; height:15px; }
+.icon-btn.danger{ color:#B33B3B; border-color:#E3B7B7; }
+.collection-item .item-body{ padding: 4px 16px 20px; border-top:1px solid var(--line); }
+
+.method-steps{ display:grid; gap:16px; }
+.method-edit-card{ border:1px solid var(--line); border-radius: var(--radius-s); padding:16px; background:var(--paper); }
+
+.tools-grid{ display:grid; grid-template-columns: repeat(2,1fr); gap:16px; }
+@media (max-width:700px){ .tools-grid{ grid-template-columns:1fr; } }
+.tool-card{ border:1px solid var(--line); border-radius: var(--radius-m); padding:20px; }
+.tool-card h3{ font-size:1rem; margin-bottom:8px; }
+.tool-card p{ font-size:.85rem; color:var(--ink-soft); margin-bottom:14px; }

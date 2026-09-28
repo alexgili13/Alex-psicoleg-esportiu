@@ -1,0 +1,1 @@
+PDFs dels teus recursos i articles. Substitueix aquest fitxer pels teus PDFs reals (per exemple: guia-respiracio.pdf) i actualitza la ruta corresponent des de l'admin.

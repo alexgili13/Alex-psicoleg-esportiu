@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Administració — [EL TEU NOM]</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚙️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/admin.css">
+</head>
+<body data-theme="light">
+
+<div class="admin-shell">
+  <aside class="admin-side">
+    <div class="admin-brand">
+      <span class="dot" aria-hidden="true"></span>
+      <div>
+        <strong>Panell d'administració</strong>
+        <small>Editor de contingut</small>
+      </div>
+    </div>
+    <nav class="admin-nav" id="admin-nav" aria-label="Seccions de l'editor">
+      <button data-panel="info">Informació general</button>
+      <button data-panel="hero">Portada (Hero)</button>
+      <button data-panel="about">Qui soc</button>
+      <button data-panel="method">Mètode</button>
+      <button data-panel="services">Serveis</button>
+      <button data-panel="pricing">Preus</button>
+      <button data-panel="clients">Clients / confiança</button>
+      <button data-panel="testimonials">Testimonis</button>
+      <button data-panel="articles">Articles</button>
+      <button data-panel="news">Actualitat</button>
+      <button data-panel="resources">Recursos</button>
+      <button data-panel="contact">Contacte i xarxes</button>
+      <button data-panel="tools">Eines i còpia de seguretat</button>
+    </nav>
+    <a class="admin-back" href="index.html">← Tornar a la web pública</a>
+  </aside>
+
+  <div class="admin-main">
+    <header class="admin-topbar">
+      <div>
+        <h1 id="panel-title">Informació general</h1>
+        <p class="save-indicator" id="save-indicator">Els canvis es guarden automàticament en aquest navegador.</p>
+      </div>
+      <div class="admin-actions">
+        <button class="btn btn-ghost btn-sm" id="btn-preview" type="button">👁️ Previsualitzar web</button>
+        <button class="btn btn-ghost btn-sm" id="btn-export" type="button">⬇️ Exportar projecte</button>
+        <button class="btn btn-ghost btn-sm" id="btn-import" type="button">⬆️ Importar projecte</button>
+        <input type="file" id="import-file" accept="application/json" hidden>
+      </div>
+    </header>
+
+    <div class="admin-notice" id="admin-notice"></div>
+
+    <main class="admin-panel" id="admin-panel"></main>
+  </div>
+</div>
+
+<script type="module" src="js/admin.js"></script>
+</body>
+</html>

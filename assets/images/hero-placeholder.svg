@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100">
+<rect width="900" height="1100" fill="#DCD6C7"/>
+<g fill="none" stroke="#14171A" stroke-width="2" opacity="0.35">
+<circle cx="450.0" cy="440.0" r="126.00000000000001"/>
+<path d="M 225.0 902.0 Q 450.0 605.0 675.0 902.0"/>
+</g>
+<text x="50%" y="92%" text-anchor="middle" font-family="Inter, sans-serif" font-size="31.500000000000004" fill="#14171A" opacity="0.55">FOTO PLACEHOLDER — HERO</text>
+</svg>

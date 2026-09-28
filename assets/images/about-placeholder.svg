@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+<rect width="800" height="1000" fill="#DCD6C7"/>
+<g fill="none" stroke="#14171A" stroke-width="2" opacity="0.35">
+<circle cx="400.0" cy="400.0" r="112.00000000000001"/>
+<path d="M 200.0 820.0 Q 400.0 550.0 600.0 820.0"/>
+</g>
+<text x="50%" y="92%" text-anchor="middle" font-family="Inter, sans-serif" font-size="28.000000000000004" fill="#14171A" opacity="0.55">FOTO PLACEHOLDER — QUI SOC</text>
+</svg>

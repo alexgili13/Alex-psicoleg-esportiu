@@ -1,0 +1,506 @@
+{
+  "meta": {
+    "version": 1,
+    "lastUpdated": "2026-09-27"
+  },
+  "settings": {
+    "activeLangs": ["ca", "es", "en", "fr"],
+    "defaultLang": "ca",
+    "socials": {
+      "instagram": { "active": true, "url": "https://instagram.com/[EL_TEU_USUARI]" }
+    }
+  },
+  "site": {
+    "name": "[EL TEU NOM I COGNOMS]",
+    "role": {
+      "ca": "Psicòleg esportiu",
+      "es": "Psicólogo deportivo",
+      "en": "Sport psychologist",
+      "fr": "Psychologue du sport"
+    },
+    "email": "[EL_TEU_EMAIL]@exemple.com",
+    "phone": "[EL TEU TELÈFON]",
+    "location": {
+      "ca": "Barcelona · Sessions presencials i online",
+      "es": "Barcelona · Sesiones presenciales y online",
+      "en": "Barcelona · In person and online sessions",
+      "fr": "Barcelone · Séances en présentiel et en ligne"
+    },
+    "favicon": "🧠"
+  },
+  "hero": {
+    "eyebrow": {
+      "ca": "Psicologia de l'alt rendiment",
+      "es": "Psicología del alto rendimiento",
+      "en": "High-performance psychology",
+      "fr": "Psychologie de la haute performance"
+    },
+    "headline": {
+      "ca": "La ment també s'entrena.",
+      "es": "La mente también se entrena.",
+      "en": "The mind trains too.",
+      "fr": "L'esprit aussi s'entraîne."
+    },
+    "subheadline": {
+      "ca": "Acompanyo esportistes, equips i entrenadors a sostenir el seu nivell quan més pesa: en la pressió, la lesió, la pausa i la competició.",
+      "es": "Acompaño a deportistas, equipos y entrenadores a sostener su nivel cuando más pesa: en la presión, la lesión, la pausa y la competición.",
+      "en": "I help athletes, teams and coaches hold their level when it matters most: under pressure, through injury, in the pause, and in competition.",
+      "fr": "J'accompagne athlètes, équipes et entraîneurs à maintenir leur niveau quand cela compte le plus : sous pression, en blessure et en compétition."
+    },
+    "ctaPrimary": {
+      "ca": "Parlem",
+      "es": "Hablemos",
+      "en": "Let's talk",
+      "fr": "Discutons"
+    },
+    "ctaSecondary": {
+      "ca": "Conèixer el mètode",
+      "es": "Conocer el método",
+      "en": "See the method",
+      "fr": "Découvrir la méthode"
+    },
+    "stats": [
+      { "value": "[XX]", "label": { "ca": "esportistes acompanyats", "es": "deportistas acompañados", "en": "athletes coached", "fr": "athlètes accompagnés" } },
+      { "value": "[XX]", "label": { "ca": "temporades en competició", "es": "temporadas en competición", "en": "seasons in competition", "fr": "saisons en compétition" } },
+      { "value": "[XX]", "label": { "ca": "clubs i federacions", "es": "clubes y federaciones", "en": "clubs and federations", "fr": "clubs et fédérations" } }
+    ],
+    "image": "assets/images/hero-placeholder.svg"
+  },
+  "about": {
+    "kicker": { "ca": "Qui soc", "es": "Quién soy", "en": "About me", "fr": "Qui suis-je" },
+    "title": {
+      "ca": "Vinc de l'esport abans que de la consulta.",
+      "es": "Vengo del deporte antes que de la consulta.",
+      "en": "I come from sport before the therapy room.",
+      "fr": "Je viens du sport avant le cabinet."
+    },
+    "paragraphs": [
+      {
+        "ca": "[Aquí va la teva formació: grau/màster en Psicologia, especialització en Psicologia de l'Esport i l'Exercici, certificacions rellevants.]",
+        "es": "[Aquí va tu formación: grado/máster en Psicología, especialización en Psicología del Deporte, certificaciones relevantes.]",
+        "en": "[Your background goes here: degree/masters in Psychology, specialisation in Sport Psychology, relevant certifications.]",
+        "fr": "[Votre formation ici : diplôme/master en psychologie, spécialisation en psychologie du sport, certifications pertinentes.]"
+      },
+      {
+        "ca": "[Explica la teva trajectòria: anys d'experiència, tipus d'esportistes o equips amb qui has treballat, si tens experiència esportiva pròpia.]",
+        "es": "[Explica tu trayectoria: años de experiencia, tipo de deportistas o equipos con los que has trabajado, experiencia deportiva propia si la tienes.]",
+        "en": "[Describe your path: years of experience, the athletes or teams you've worked with, your own sporting background if relevant.]",
+        "fr": "[Décrivez votre parcours : années d'expérience, athlètes ou équipes accompagnés, votre propre expérience sportive.]"
+      },
+      {
+        "ca": "[Explica la teva filosofia de treball i els valors que la sostenen: rigor, proximitat, confidencialitat, treball basat en evidència.]",
+        "es": "[Explica tu filosofía de trabajo y los valores que la sostienen: rigor, cercanía, confidencialidad, trabajo basado en evidencia.]",
+        "en": "[Describe your working philosophy and the values behind it: rigour, closeness, confidentiality, evidence-based practice.]",
+        "fr": "[Décrivez votre philosophie de travail et vos valeurs : rigueur, proximité, confidentialité, pratique fondée sur des preuves.]"
+      }
+    ],
+    "credentials": [
+      { "ca": "[Titulació 1 — universitat, any]", "es": "[Titulación 1 — universidad, año]", "en": "[Credential 1 — university, year]", "fr": "[Diplôme 1 — université, année]" },
+      { "ca": "[Titulació / certificació 2]", "es": "[Titulación / certificación 2]", "en": "[Credential / certification 2]", "fr": "[Diplôme / certification 2]" },
+      { "ca": "[Col·legiat/da núm. XXXXX]", "es": "[Colegiado/a núm. XXXXX]", "en": "[Registered psychologist No. XXXXX]", "fr": "[Inscrit(e) au registre n° XXXXX]" }
+    ],
+    "image": "assets/images/about-placeholder.svg"
+  },
+  "method": {
+    "kicker": { "ca": "El mètode", "es": "El método", "en": "The method", "fr": "La méthode" },
+    "title": {
+      "ca": "Cinc fases, un mateix objectiu: que el rendiment no depengui de l'atzar.",
+      "es": "Cinco fases, un mismo objetivo: que el rendimiento no dependa del azar.",
+      "en": "Five stages, one goal: performance that doesn't depend on luck.",
+      "fr": "Cinq étapes, un seul objectif : une performance qui ne dépend pas du hasard."
+    },
+    "steps": [
+      {
+        "number": 1,
+        "icon": "compass",
+        "title": { "ca": "Conèixer", "es": "Conocer", "en": "Understand", "fr": "Comprendre" },
+        "description": {
+          "ca": "Primera trobada per entendre la situació esportiva, personal i competitiva. Sense diagnòstics precipitats.",
+          "es": "Primer encuentro para entender la situación deportiva, personal y competitiva. Sin diagnósticos precipitados.",
+          "en": "A first meeting to understand the sporting, personal and competitive context. No rushed diagnoses.",
+          "fr": "Une première rencontre pour comprendre le contexte sportif, personnel et compétitif."
+        }
+      },
+      {
+        "number": 2,
+        "icon": "target",
+        "title": { "ca": "Analitzar", "es": "Analizar", "en": "Analyse", "fr": "Analyser" },
+        "description": {
+          "ca": "Identifiquem els patrons que ajuden i els que frenen: gestió de la pressió, pensament, activació, hàbits.",
+          "es": "Identificamos los patrones que ayudan y los que frenan: gestión de la presión, pensamiento, activación, hábitos.",
+          "en": "We identify the patterns that help and the ones that hold you back: pressure, thinking, arousal, habits.",
+          "fr": "Nous identifions les schémas qui aident et ceux qui freinent : pression, pensée, activation, habitudes."
+        }
+      },
+      {
+        "number": 3,
+        "icon": "layers",
+        "title": { "ca": "Treballar", "es": "Trabajar", "en": "Work", "fr": "Travailler" },
+        "description": {
+          "ca": "Sessions centrades en objectius concrets: confiança, concentració, gestió de l'error, autoexigència.",
+          "es": "Sesiones centradas en objetivos concretos: confianza, concentración, gestión del error, autoexigencia.",
+          "en": "Sessions focused on concrete goals: confidence, focus, handling mistakes, self-demand.",
+          "fr": "Séances centrées sur des objectifs concrets : confiance, concentration, gestion de l'erreur."
+        }
+      },
+      {
+        "number": 4,
+        "icon": "activity",
+        "title": { "ca": "Entrenar", "es": "Entrenar", "en": "Train", "fr": "Entraîner" },
+        "description": {
+          "ca": "Portem les eines a l'entrenament i a la competició, amb seguiment i ajustos constants.",
+          "es": "Llevamos las herramientas al entrenamiento y a la competición, con seguimiento y ajustes constantes.",
+          "en": "We take the tools into training and competition, with ongoing follow-up and adjustment.",
+          "fr": "Nous transposons les outils à l'entraînement et à la compétition, avec un suivi constant."
+        }
+      },
+      {
+        "number": 5,
+        "icon": "shield",
+        "title": { "ca": "Consolidar", "es": "Consolidar", "en": "Consolidate", "fr": "Consolider" },
+        "description": {
+          "ca": "L'objectiu final és l'autonomia: que les eines es quedin amb tu, no amb mi.",
+          "es": "El objetivo final es la autonomía: que las herramientas se queden contigo, no conmigo.",
+          "en": "The end goal is autonomy: the tools stay with you, not with me.",
+          "fr": "L'objectif final est l'autonomie : que les outils restent avec vous, pas avec moi."
+        }
+      }
+    ]
+  },
+  "sectionHeaders": {
+    "services": {
+      "kicker": { "ca": "Serveis", "es": "Servicios", "en": "Services", "fr": "Services" },
+      "title": { "ca": "Com puc ajudar-te", "es": "Cómo puedo ayudarte", "en": "How I can help", "fr": "Comment je peux vous aider" }
+    },
+    "pricing": {
+      "kicker": { "ca": "Preus", "es": "Precios", "en": "Pricing", "fr": "Tarifs" },
+      "title": { "ca": "Tarifes clares, sense sorpreses", "es": "Tarifas claras, sin sorpresas", "en": "Clear pricing, no surprises", "fr": "Des tarifs clairs, sans surprise" }
+    },
+    "testimonials": {
+      "kicker": { "ca": "Testimonis", "es": "Testimonios", "en": "Testimonials", "fr": "Témoignages" },
+      "title": { "ca": "El que expliquen qui hi han treballat", "es": "Lo que cuentan quienes han trabajado conmigo", "en": "What people say after working together", "fr": "Ce que disent celles et ceux qui ont travaillé avec moi" }
+    },
+    "articles": {
+      "kicker": { "ca": "Articles", "es": "Artículos", "en": "Articles", "fr": "Articles" },
+      "title": { "ca": "Lectura de fons", "es": "Lectura de fondo", "en": "In-depth reading", "fr": "Lectures de fond" }
+    },
+    "news": {
+      "kicker": { "ca": "Actualitat", "es": "Actualidad", "en": "Updates", "fr": "Actualités" },
+      "title": { "ca": "Reflexions breus i recursos", "es": "Reflexiones breves y recursos", "en": "Short reflections and resources", "fr": "Réflexions courtes et ressources" }
+    },
+    "resources": {
+      "kicker": { "ca": "Recursos", "es": "Recursos", "en": "Resources", "fr": "Ressources" },
+      "title": { "ca": "Materials per portar-te'n", "es": "Materiales para llevarte", "en": "Materials to take with you", "fr": "Des ressources à emporter" }
+    }
+  },
+  "services": [
+    {
+      "id": "svc-1",
+      "active": true,
+      "icon": "user",
+      "title": { "ca": "Psicologia esportiva individual", "es": "Psicología deportiva individual", "en": "Individual sport psychology", "fr": "Psychologie du sport individuelle" },
+      "description": { "ca": "Treball un a un amb l'esportista per a objectius de rendiment i benestar.", "es": "Trabajo uno a uno con el deportista para objetivos de rendimiento y bienestar.", "en": "One-to-one work with the athlete on performance and wellbeing goals.", "fr": "Travail individuel avec l'athlète sur la performance et le bien-être." },
+      "price": "[XX] €",
+      "duration": { "ca": "Sessió de 50 min", "es": "Sesión de 50 min", "en": "50-minute session", "fr": "Séance de 50 min" },
+      "cta": { "ca": "Reservar sessió", "es": "Reservar sesión", "en": "Book a session", "fr": "Réserver une séance" }
+    },
+    {
+      "id": "svc-2",
+      "active": true,
+      "icon": "users",
+      "title": { "ca": "Treball amb equips", "es": "Trabajo con equipos", "en": "Team work", "fr": "Travail d'équipe" },
+      "description": { "ca": "Cohesió, comunicació i gestió de la pressió col·lectiva en equips competitius.", "es": "Cohesión, comunicación y gestión de la presión colectiva en equipos competitivos.", "en": "Cohesion, communication and collective pressure management for competitive teams.", "fr": "Cohésion, communication et gestion de la pression collective." },
+      "price": "[XX] € / sessió",
+      "duration": { "ca": "A mida del club", "es": "A medida del club", "en": "Tailored to the club", "fr": "Sur mesure pour le club" },
+      "cta": { "ca": "Demanar informació", "es": "Pedir información", "en": "Ask for details", "fr": "Demander des informations" }
+    },
+    {
+      "id": "svc-3",
+      "active": true,
+      "icon": "flag",
+      "title": { "ca": "Preparació per a competició", "es": "Preparación para competición", "en": "Competition preparation", "fr": "Préparation à la compétition" },
+      "description": { "ca": "Protocols específics de gestió mental per a moments clau: proves, finals, seleccions.", "es": "Protocolos específicos de gestión mental para momentos clave: pruebas, finales, selecciones.", "en": "Specific mental-management protocols for key moments: trials, finals, selections.", "fr": "Protocoles spécifiques pour les moments clés : essais, finales, sélections." },
+      "price": "[XX] €",
+      "duration": { "ca": "Pack de 3 sessions", "es": "Pack de 3 sesiones", "en": "3-session pack", "fr": "Pack de 3 séances" },
+      "cta": { "ca": "Vull preparar-me", "es": "Quiero prepararme", "en": "I want to prepare", "fr": "Je veux me préparer" }
+    },
+    {
+      "id": "svc-4",
+      "active": true,
+      "icon": "compass",
+      "title": { "ca": "Assessorament a entrenadors i clubs", "es": "Asesoramiento a entrenadores y clubes", "en": "Coach and club consulting", "fr": "Conseil aux entraîneurs et clubs" },
+      "description": { "ca": "Suport a cossos tècnics per integrar la vessant psicològica en la planificació esportiva.", "es": "Soporte a cuerpos técnicos para integrar la vertiente psicológica en la planificación deportiva.", "en": "Support for coaching staff to integrate the psychological side into sporting planning.", "fr": "Accompagnement des staffs techniques pour intégrer la dimension psychologique." },
+      "price": "[A consultar]",
+      "duration": { "ca": "Format flexible", "es": "Formato flexible", "en": "Flexible format", "fr": "Format flexible" },
+      "cta": { "ca": "Parlem-ne", "es": "Hablemos", "en": "Let's talk", "fr": "Discutons-en" }
+    },
+    {
+      "id": "svc-5",
+      "active": true,
+      "icon": "layers",
+      "title": { "ca": "Tallers i xerrades", "es": "Talleres y charlas", "en": "Workshops and talks", "fr": "Ateliers et conférences" },
+      "description": { "ca": "Sessions grupals sobre gestió emocional, concentració i hàbits d'alt rendiment.", "es": "Sesiones grupales sobre gestión emocional, concentración y hábitos de alto rendimiento.", "en": "Group sessions on emotional management, focus and high-performance habits.", "fr": "Sessions collectives sur la gestion émotionnelle et la concentration." },
+      "price": "[A consultar]",
+      "duration": { "ca": "60–90 min", "es": "60–90 min", "en": "60–90 min", "fr": "60–90 min" },
+      "cta": { "ca": "Sol·licitar taller", "es": "Solicitar taller", "en": "Request a workshop", "fr": "Demander un atelier" }
+    },
+    {
+      "id": "svc-6",
+      "active": false,
+      "icon": "shield",
+      "title": { "ca": "Servei inactiu (exemple)", "es": "Servicio inactivo (ejemplo)", "en": "Inactive service (example)", "fr": "Service inactif (exemple)" },
+      "description": { "ca": "Aquest servei té active=false a l'admin i per això no es mostra a la web.", "es": "Este servicio tiene active=false en el admin y por eso no se muestra en la web.", "en": "This service has active=false in the admin, so it doesn't show on the site.", "fr": "Ce service est désactivé et n'apparaît donc pas sur le site." },
+      "price": "—",
+      "duration": { "ca": "—", "es": "—", "en": "—", "fr": "—" },
+      "cta": { "ca": "—", "es": "—", "en": "—", "fr": "—" }
+    }
+  ],
+  "pricing": [
+    {
+      "id": "price-1",
+      "active": true,
+      "recommended": false,
+      "name": { "ca": "Sessió individual", "es": "Sesión individual", "en": "Single session", "fr": "Séance individuelle" },
+      "description": { "ca": "Ideal per a una primera valoració o per treballar un objectiu concret.", "es": "Ideal para una primera valoración o para trabajar un objetivo concreto.", "en": "Ideal for a first assessment or to work on a specific goal.", "fr": "Idéal pour une première évaluation ou un objectif précis." },
+      "price": "[XX] €",
+      "duration": { "ca": "50 min", "es": "50 min", "en": "50 min", "fr": "50 min" },
+      "cta": { "ca": "Reservar", "es": "Reservar", "en": "Book now", "fr": "Réserver" }
+    },
+    {
+      "id": "price-2",
+      "active": true,
+      "recommended": true,
+      "name": { "ca": "Pack de 6 sessions", "es": "Pack de 6 sesiones", "en": "6-session pack", "fr": "Pack de 6 séances" },
+      "description": { "ca": "El format més habitual per a un procés amb continuïtat i resultats sostinguts.", "es": "El formato más habitual para un proceso con continuidad y resultados sostenidos.", "en": "The most common format for an ongoing process with sustained results.", "fr": "Le format le plus courant pour un processus continu." },
+      "price": "[XX] €",
+      "duration": { "ca": "6 × 50 min", "es": "6 × 50 min", "en": "6 × 50 min", "fr": "6 × 50 min" },
+      "cta": { "ca": "Escollir pack", "es": "Elegir pack", "en": "Choose this pack", "fr": "Choisir ce pack" }
+    },
+    {
+      "id": "price-3",
+      "active": true,
+      "recommended": false,
+      "name": { "ca": "Sessió amb equips", "es": "Sesión con equipos", "en": "Team session", "fr": "Séance d'équipe" },
+      "description": { "ca": "Treball grupal per a equips, amb material específic per al cos tècnic.", "es": "Trabajo grupal para equipos, con material específico para el cuerpo técnico.", "en": "Group work for teams, with specific material for coaching staff.", "fr": "Travail collectif pour équipes, avec supports pour le staff." },
+      "price": "[A pressupostar]",
+      "duration": { "ca": "A mida", "es": "A medida", "en": "Tailored", "fr": "Sur mesure" },
+      "cta": { "ca": "Demanar pressupost", "es": "Pedir presupuesto", "en": "Request a quote", "fr": "Demander un devis" }
+    },
+    {
+      "id": "price-4",
+      "active": true,
+      "recommended": false,
+      "name": { "ca": "Taller / xerrada", "es": "Taller / charla", "en": "Workshop / talk", "fr": "Atelier / conférence" },
+      "description": { "ca": "Format puntual per a clubs, empreses o grups d'esportistes.", "es": "Formato puntual para clubes, empresas o grupos de deportistas.", "en": "One-off format for clubs, companies or groups of athletes.", "fr": "Format ponctuel pour clubs, entreprises ou groupes." },
+      "price": "[A consultar]",
+      "duration": { "ca": "60–90 min", "es": "60–90 min", "en": "60–90 min", "fr": "60–90 min" },
+      "cta": { "ca": "Sol·licitar", "es": "Solicitar", "en": "Request", "fr": "Demander" }
+    }
+  ],
+  "clients": {
+    "kicker": { "ca": "Confiança", "es": "Confianza", "en": "Trust", "fr": "Confiance" },
+    "title": {
+      "ca": "Esportistes, clubs i organitzacions — contingut DEMO",
+      "es": "Deportistas, clubes y organizaciones — contenido DEMO",
+      "en": "Athletes, clubs and organisations — DEMO content",
+      "fr": "Athlètes, clubs et organisations — contenu DÉMO"
+    },
+    "note": {
+      "ca": "Els logos i noms d'aquesta secció són exemples de demostració. Substitueix-los pels teus clients reals des de l'admin.",
+      "es": "Los logos y nombres de esta sección son ejemplos de demostración. Sustitúyelos por tus clientes reales desde el admin.",
+      "en": "The logos and names in this section are demo examples. Replace them with your real clients from the admin.",
+      "fr": "Les logos et noms de cette section sont des exemples de démonstration."
+    },
+    "items": [
+      { "id": "cl-1", "active": true, "name": "Club Demo A", "image": "assets/images/client-1.svg" },
+      { "id": "cl-2", "active": true, "name": "Club Demo B", "image": "assets/images/client-2.svg" },
+      { "id": "cl-3", "active": true, "name": "Club Demo C", "image": "assets/images/client-3.svg" },
+      { "id": "cl-4", "active": true, "name": "Club Demo D", "image": "assets/images/client-4.svg" },
+      { "id": "cl-5", "active": true, "name": "Club Demo E", "image": "assets/images/client-5.svg" }
+    ]
+  },
+  "testimonials": [
+    {
+      "id": "test-1",
+      "active": true,
+      "name": "Nom Cognom (DEMO)",
+      "role": { "ca": "Atletisme · 800 m", "es": "Atletismo · 800 m", "en": "Athletics · 800 m", "fr": "Athlétisme · 800 m" },
+      "club": "Club Demo A",
+      "photo": "assets/images/testimonial-1.svg",
+      "text": {
+        "ca": "[Testimoni de demostració. Substitueix aquest text per un testimoni real del teu esportista, amb el seu consentiment explícit.]",
+        "es": "[Testimonio de demostración. Sustituye este texto por un testimonio real de tu deportista, con su consentimiento explícito.]",
+        "en": "[Demo testimonial. Replace this text with a real testimonial from your athlete, with their explicit consent.]",
+        "fr": "[Témoignage de démonstration à remplacer par un vrai témoignage, avec consentement explicite.]"
+      }
+    },
+    {
+      "id": "test-2",
+      "active": true,
+      "name": "Nom Cognom (DEMO)",
+      "role": { "ca": "Bàsquet · Base", "es": "Baloncesto · Base", "en": "Basketball · Point guard", "fr": "Basket · Meneur" },
+      "club": "Club Demo B",
+      "photo": "assets/images/testimonial-2.svg",
+      "text": {
+        "ca": "[Testimoni de demostració. Pots amagar el club o el nom complet si el teu client prefereix mantenir-se anònim.]",
+        "es": "[Testimonio de demostración. Puedes ocultar el club o el nombre completo si tu cliente prefiere mantenerse anónimo.]",
+        "en": "[Demo testimonial. You can hide the club or full name if your client prefers to stay anonymous.]",
+        "fr": "[Témoignage de démonstration. Le club ou le nom peuvent rester anonymes si besoin.]"
+      }
+    },
+    {
+      "id": "test-3",
+      "active": true,
+      "name": "Entrenador/a (DEMO)",
+      "role": { "ca": "Cos tècnic", "es": "Cuerpo técnico", "en": "Coaching staff", "fr": "Staff technique" },
+      "club": "Club Demo C",
+      "photo": "assets/images/testimonial-3.svg",
+      "text": {
+        "ca": "[Testimoni de demostració des de la perspectiva d'un entrenador o cos tècnic.]",
+        "es": "[Testimonio de demostración desde la perspectiva de un entrenador o cuerpo técnico.]",
+        "en": "[Demo testimonial from the perspective of a coach or coaching staff.]",
+        "fr": "[Témoignage de démonstration du point de vue d'un entraîneur.]"
+      }
+    }
+  ],
+  "news": [
+    {
+      "id": "news-1",
+      "active": true,
+      "date": "2026-09-10",
+      "category": { "ca": "Reflexió", "es": "Reflexión", "en": "Reflection", "fr": "Réflexion" },
+      "image": "assets/images/news-1.svg",
+      "title": { "ca": "[Títol de demostració] Per què perdre no és el contrari de rendir", "es": "[Título de demostración] Por qué perder no es lo contrario de rendir", "en": "[Demo title] Why losing isn't the opposite of performing", "fr": "[Titre démo] Pourquoi perdre n'est pas l'opposé de performer" },
+      "excerpt": { "ca": "Contingut de demostració sobre la relació entre resultat i rendiment.", "es": "Contenido de demostración sobre la relación entre resultado y rendimiento.", "en": "Demo content about the relationship between result and performance.", "fr": "Contenu de démonstration sur la relation entre résultat et performance." },
+      "content": { "ca": "<p>[Aquest és un text de demostració. Edita'l des de l'admin per publicar la teva pròpia reflexió.]</p>", "es": "<p>[Este es un texto de demostración. Edítalo desde el admin para publicar tu propia reflexión.]</p>", "en": "<p>[This is demo text. Edit it from the admin to publish your own reflection.]</p>", "fr": "<p>[Ceci est un texte de démonstration.]</p>" },
+      "tags": ["mentalitat", "competició"],
+      "links": [],
+      "pdf": "",
+      "video": ""
+    },
+    {
+      "id": "news-2",
+      "active": true,
+      "date": "2026-08-22",
+      "category": { "ca": "Consell", "es": "Consejo", "en": "Tip", "fr": "Conseil" },
+      "image": "assets/images/news-2.svg",
+      "title": { "ca": "[Títol de demostració] Tres senyals que necessites descansar la ment", "es": "[Título de demostración] Tres señales de que necesitas descansar la mente", "en": "[Demo title] Three signs your mind needs a rest", "fr": "[Titre démo] Trois signes qu'il faut reposer votre esprit" },
+      "excerpt": { "ca": "Contingut de demostració sobre la gestió de la fatiga mental.", "es": "Contenido de demostración sobre la gestión de la fatiga mental.", "en": "Demo content about managing mental fatigue.", "fr": "Contenu de démonstration sur la fatigue mentale." },
+      "content": { "ca": "<p>[Text de demostració editable des de l'admin.]</p>", "es": "<p>[Texto de demostración editable desde el admin.]</p>", "en": "<p>[Demo text, editable from the admin.]</p>", "fr": "<p>[Texte de démonstration.]</p>" },
+      "tags": ["benestar"],
+      "links": [],
+      "pdf": "",
+      "video": ""
+    },
+    {
+      "id": "news-3",
+      "active": true,
+      "date": "2026-07-30",
+      "category": { "ca": "Recurs", "es": "Recurso", "en": "Resource", "fr": "Ressource" },
+      "image": "assets/images/news-3.svg",
+      "title": { "ca": "[Títol de demostració] Una rutina de tres minuts abans de competir", "es": "[Título de demostración] Una rutina de tres minutos antes de competir", "en": "[Demo title] A three-minute pre-competition routine", "fr": "[Titre démo] Une routine de trois minutes avant la compétition" },
+      "excerpt": { "ca": "Contingut de demostració sobre rutines pre-competitives.", "es": "Contenido de demostración sobre rutinas pre-competitivas.", "en": "Demo content about pre-competition routines.", "fr": "Contenu de démonstration sur les routines de pré-compétition." },
+      "content": { "ca": "<p>[Text de demostració editable des de l'admin.]</p>", "es": "<p>[Texto de demostración editable desde el admin.]</p>", "en": "<p>[Demo text, editable from the admin.]</p>", "fr": "<p>[Texte de démonstration.]</p>" },
+      "tags": ["rutines", "competició"],
+      "links": [],
+      "pdf": "",
+      "video": ""
+    }
+  ],
+  "articles": [
+    {
+      "id": "art-1",
+      "active": true,
+      "date": "2026-09-05",
+      "author": "[El teu nom]",
+      "image": "assets/images/article-1.svg",
+      "title": { "ca": "[Títol de demostració] La confiança no és un tret de personalitat, és una habilitat", "es": "[Título de demostración] La confianza no es un rasgo de personalidad, es una habilidad", "en": "[Demo title] Confidence isn't a trait, it's a skill", "fr": "[Titre démo] La confiance n'est pas un trait, c'est une compétence" },
+      "intro": { "ca": "Article de demostració sobre com la confiança esportiva es pot entrenar de manera deliberada.", "es": "Artículo de demostración sobre cómo la confianza deportiva se puede entrenar de forma deliberada.", "en": "Demo article about how sporting confidence can be trained deliberately.", "fr": "Article de démonstration sur l'entraînement délibéré de la confiance." },
+      "body": {
+        "ca": "<h2>Un malentès habitual</h2><p>[Text de demostració. Escriu aquí el cos complet del teu article. Pots utilitzar subtítols amb &lt;h2&gt;, paràgrafs, imatges i enllaços.]</p><h2>Què diu la recerca</h2><p>[Continua el text aquí.]</p>",
+        "es": "<h2>Un malentendido habitual</h2><p>[Texto de demostración. Escribe aquí el cuerpo completo de tu artículo.]</p><h2>Qué dice la investigación</h2><p>[Continúa el texto aquí.]</p>",
+        "en": "<h2>A common misunderstanding</h2><p>[Demo text. Write the full body of your article here.]</p><h2>What the research says</h2><p>[Continue the text here.]</p>",
+        "fr": "<h2>Un malentendu courant</h2><p>[Texte de démonstration.]</p>"
+      },
+      "tags": ["confiança", "rendiment", "recerca"],
+      "pdf": ""
+    },
+    {
+      "id": "art-2",
+      "active": true,
+      "date": "2026-06-18",
+      "author": "[El teu nom]",
+      "image": "assets/images/article-2.svg",
+      "title": { "ca": "[Títol de demostració] Gestionar la pressió sense fingir que no existeix", "es": "[Título de demostración] Gestionar la presión sin fingir que no existe", "en": "[Demo title] Managing pressure without pretending it isn't there", "fr": "[Titre démo] Gérer la pression sans faire semblant" },
+      "intro": { "ca": "Article de demostració sobre estratègies realistes de gestió de la pressió competitiva.", "es": "Artículo de demostración sobre estrategias realistas de gestión de la presión competitiva.", "en": "Demo article about realistic strategies for managing competitive pressure.", "fr": "Article de démonstration sur des stratégies réalistes de gestion de la pression." },
+      "body": {
+        "ca": "<p>[Text de demostració editable des de l'admin.]</p>",
+        "es": "<p>[Texto de demostración editable desde el admin.]</p>",
+        "en": "<p>[Demo text, editable from the admin.]</p>",
+        "fr": "<p>[Texte de démonstration.]</p>"
+      },
+      "tags": ["pressió", "competició"],
+      "pdf": ""
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-1",
+      "active": true,
+      "date": "2026-09-01",
+      "category": { "ca": "Guia", "es": "Guía", "en": "Guide", "fr": "Guide" },
+      "image": "assets/images/resource-1.svg",
+      "name": { "ca": "[Nom de demostració] Guia breu de respiració pre-competitiva", "es": "[Nombre de demostración] Guía breve de respiración pre-competitiva", "en": "[Demo name] Short pre-competition breathing guide", "fr": "[Nom démo] Petit guide de respiration pré-compétition" },
+      "description": { "ca": "Recurs de demostració. Adjunta el teu propi PDF des de l'admin.", "es": "Recurso de demostración. Adjunta tu propio PDF desde el admin.", "en": "Demo resource. Attach your own PDF from the admin.", "fr": "Ressource de démonstration. Ajoutez votre propre PDF." },
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "id": "res-2",
+      "active": true,
+      "date": "2026-07-15",
+      "category": { "ca": "Infografia", "es": "Infografía", "en": "Infographic", "fr": "Infographie" },
+      "image": "assets/images/resource-2.svg",
+      "name": { "ca": "[Nom de demostració] Els 5 pilars de la concentració", "es": "[Nombre de demostración] Los 5 pilares de la concentración", "en": "[Demo name] The 5 pillars of focus", "fr": "[Nom démo] Les 5 piliers de la concentration" },
+      "description": { "ca": "Recurs de demostració, sense fitxer adjunt.", "es": "Recurso de demostración, sin archivo adjunto.", "en": "Demo resource, no file attached.", "fr": "Ressource de démonstration, sans fichier." },
+      "link": "",
+      "pdf": ""
+    },
+    {
+      "id": "res-3",
+      "active": true,
+      "date": "2026-05-02",
+      "category": { "ca": "Enllaç", "es": "Enlace", "en": "Link", "fr": "Lien" },
+      "image": "assets/images/resource-3.svg",
+      "name": { "ca": "[Nom de demostració] Podcast recomanat sobre alt rendiment", "es": "[Nombre de demostración] Podcast recomendado sobre alto rendimiento", "en": "[Demo name] Recommended podcast on high performance", "fr": "[Nom démo] Podcast recommandé sur la haute performance" },
+      "description": { "ca": "Enllaç extern de demostració.", "es": "Enlace externo de demostración.", "en": "Demo external link.", "fr": "Lien externe de démonstration." },
+      "link": "https://exemple.com",
+      "pdf": ""
+    }
+  ],
+  "contact": {
+    "kicker": { "ca": "Contacte", "es": "Contacto", "en": "Contact", "fr": "Contact" },
+    "title": {
+      "ca": "Parlem del teu proper repte.",
+      "es": "Hablemos de tu próximo reto.",
+      "en": "Let's talk about your next challenge.",
+      "fr": "Parlons de votre prochain défi."
+    },
+    "text": {
+      "ca": "Escriu-me explicant breument la teva situació i et respondré en menys de 48 hores per concretar una primera trobada.",
+      "es": "Escríbeme explicando brevemente tu situación y te responderé en menos de 48 horas para concretar un primer encuentro.",
+      "en": "Write to me with a brief outline of your situation and I'll reply within 48 hours to arrange a first meeting.",
+      "fr": "Écrivez-moi en décrivant brièvement votre situation ; je réponds sous 48 heures."
+    },
+    "formEndpoint": "",
+    "formProvider": "mailto"
+  },
+  "footer": {
+    "tagline": {
+      "ca": "Psicologia esportiva i alt rendiment.",
+      "es": "Psicología deportiva y alto rendimiento.",
+      "en": "Sport psychology and high performance.",
+      "fr": "Psychologie du sport et haute performance."
+    }
+  }
+}

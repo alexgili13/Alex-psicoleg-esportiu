@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="500" viewBox="0 0 700 500">
+<rect width="700" height="500" fill="#DCD6C7"/>
+<g fill="none" stroke="#14171A" stroke-width="2" opacity="0.35">
+<circle cx="350.0" cy="200.0" r="70.0"/>
+<path d="M 175.0 410.0 Q 350.0 275.0 525.0 410.0"/>
+</g>
+<text x="50%" y="92%" text-anchor="middle" font-family="Inter, sans-serif" font-size="24.500000000000004" fill="#14171A" opacity="0.55">RECURS — DEMO</text>
+</svg>
