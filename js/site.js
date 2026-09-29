@@ -42,23 +42,45 @@ function renderLangSwitch(){
 function wireNavAndTheme(){
   const header = $("#site-header");
   const hamburger = $("#hamburger");
+  const closeMenu = () => {
+    document.body.classList.remove("nav-open");
+    hamburger.setAttribute("aria-expanded", "false");
+  };
   hamburger.addEventListener("click", () => {
     const open = document.body.classList.toggle("nav-open");
     hamburger.setAttribute("aria-expanded", String(open));
   });
-  $$("#main-nav a").forEach(a => a.addEventListener("click", () => document.body.classList.remove("nav-open")));
+  $$("#main-nav a").forEach(a => a.addEventListener("click", closeMenu));
+  document.addEventListener("keydown", e => { if (e.key === "Escape") closeMenu(); });
 
   $("#theme-toggle").addEventListener("click", () => toggleTheme());
 
-  const themeToggle = $("#theme-toggle");
-  themeToggle.querySelector(".icon-sun");
-
-  let lastY = 0;
   window.addEventListener("scroll", () => {
-    const y = window.scrollY;
-    header.style.boxShadow = y > 8 ? "0 1px 0 var(--line)" : "none";
-    lastY = y;
+    header.style.boxShadow = window.scrollY > 8 ? "0 1px 0 var(--line)" : "none";
   }, { passive: true });
+
+  initScrollSpy();
+}
+
+function initScrollSpy(){
+  const links = $$("#main-nav a[href^='#']");
+  const map = new Map();
+  links.forEach(a => {
+    const id = a.getAttribute("href").slice(1);
+    const section = document.getElementById(id);
+    if (section) map.set(section, a);
+  });
+  if (!map.size) return;
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting){
+        links.forEach(l => l.removeAttribute("aria-current"));
+        const active = map.get(e.target);
+        if (active) active.setAttribute("aria-current", "true");
+      }
+    });
+  }, { rootMargin: "-45% 0px -50% 0px", threshold: 0 });
+  map.forEach((_, section) => io.observe(section));
 }
 
 function initReveal(){
@@ -168,8 +190,8 @@ function renderTestimonials(){
     </div></div>
     <div class="slider-controls">
       <button class="slider-btn" id="t-prev" aria-label="${esc(ui("back", LANG))}">${iconSVG("arrow-left")}</button>
-      <button class="slider-btn" id="t-next" aria-label="Next">${iconSVG("arrow-right")}</button>
-      <div class="slider-dots" id="t-dots">${list.map((_, i) => `<button data-i="${i}" aria-current="${i === slideIndex}" aria-label="Testimoni ${i + 1}"></button>`).join("")}</div>
+      <button class="slider-btn" id="t-next" aria-label="${esc(ui("next", LANG))}">${iconSVG("arrow-right")}</button>
+      <div class="slider-dots" id="t-dots">${list.map((_, i) => `<button data-i="${i}" aria-current="${i === slideIndex}" aria-label="${esc(ui("testimonial", LANG))} ${i + 1}"></button>`).join("")}</div>
     </div>`;
   applySlide();
   $("#t-prev").addEventListener("click", () => moveSlide(-1, list.length));
@@ -245,6 +267,30 @@ function renderContact(){
   $("#contact-location-label").textContent = locationLabels[LANG] || locationLabels.ca;
   $("#contact-location").textContent = t(site.location, LANG);
 
+  const phoneWrap = $("#contact-phone-wrap");
+  if (site.phone && !/\[/.test(site.phone)){
+    phoneWrap.style.display = "";
+    $("#contact-phone-label").textContent = ui("phone", LANG);
+    $("#contact-phone").textContent = site.phone;
+    $("#contact-phone").href = "tel:" + site.phone.replace(/[^+\d]/g, "");
+  } else {
+    phoneWrap.style.display = "none";
+  }
+
+  const waWrap = $("#contact-whatsapp-wrap");
+  const waFab = $("#wa-fab");
+  if (socials.whatsapp && socials.whatsapp.active && socials.whatsapp.number){
+    const num = socials.whatsapp.number.replace(/[^\d]/g, "");
+    const waUrl = "https://wa.me/" + num;
+    waWrap.style.display = "";
+    $("#contact-whatsapp").href = waUrl;
+    $("#contact-whatsapp").textContent = ui("whatsappCta", LANG);
+    if (waFab){ waFab.href = waUrl; waFab.hidden = false; waFab.setAttribute("aria-label", ui("whatsapp", LANG)); }
+  } else {
+    waWrap.style.display = "none";
+    if (waFab) waFab.hidden = true;
+  }
+
   const igWrap = $("#contact-instagram-wrap");
   if (socials.instagram && socials.instagram.active){
     igWrap.style.display = "";
@@ -271,25 +317,38 @@ function renderContact(){
 
 function wireContactForm(){
   const form = $("#contact-form");
+  const status = $("#form-status");
+  const setStatus = (msg, ok = true) => {
+    if (!status) return;
+    status.textContent = msg;
+    status.dataset.state = ok ? "ok" : "error";
+  };
   form.addEventListener("submit", async e => {
     e.preventDefault();
     const c = CONTENT.contact, site = CONTENT.site;
     const data = Object.fromEntries(new FormData(form).entries());
-    if (c.formProvider === "web3forms" && c.formEndpoint){
-      await fetch("https://api.web3forms.com/submit", {
-        method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ access_key: c.formEndpoint, ...data })
-      });
-      form.reset();
-      alert(LANG === "en" ? "Message sent. Thank you!" : "Missatge enviat. Gràcies!");
-    } else if (c.formProvider === "formspree" && c.formEndpoint){
-      await fetch(c.formEndpoint, { method: "POST", headers: { "Accept": "application/json" }, body: new FormData(form) });
-      form.reset();
-      alert(LANG === "en" ? "Message sent. Thank you!" : "Missatge enviat. Gràcies!");
-    } else {
-      const subject = encodeURIComponent(`[Web] ${data.subject}`);
-      const body = encodeURIComponent(`Nom: ${data.name}\nEmail: ${data.email}\n\n${data.message}`);
-      window.location.href = `mailto:${site.email}?subject=${subject}&body=${body}`;
+    try{
+      if (c.formProvider === "web3forms" && c.formEndpoint){
+        const res = await fetch("https://api.web3forms.com/submit", {
+          method: "POST", headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ access_key: c.formEndpoint, ...data })
+        });
+        if (!res.ok) throw new Error("web3forms");
+        form.reset();
+        setStatus(ui("messageSent", LANG), true);
+      } else if (c.formProvider === "formspree" && c.formEndpoint){
+        const res = await fetch(c.formEndpoint, { method: "POST", headers: { "Accept": "application/json" }, body: new FormData(form) });
+        if (!res.ok) throw new Error("formspree");
+        form.reset();
+        setStatus(ui("messageSent", LANG), true);
+      } else {
+        const subject = encodeURIComponent(`[Web] ${data.subject}`);
+        const body = encodeURIComponent(`Nom: ${data.name}\nEmail: ${data.email}\n\n${data.message}`);
+        window.location.href = `mailto:${site.email}?subject=${subject}&body=${body}`;
+      }
+    }catch(err){
+      console.error(err);
+      setStatus(ui("messageError", LANG), false);
     }
   });
 }

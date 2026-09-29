@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /admin.html
+
+Sitemap: https://alexgili13.github.io/Alex-psicoleg-esportiu/sitemap.xml

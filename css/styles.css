@@ -69,7 +69,7 @@
 
 /* ---------- 2. Reset ---------- */
 *,*::before,*::after{ box-sizing: border-box; }
-html{ scroll-behavior:smooth; scroll-padding-top: 84px; }
+html{ scroll-behavior:smooth; scroll-padding-top: 84px; overflow-x: hidden; }
 body{
   margin:0;
   background: var(--paper);
@@ -77,6 +77,7 @@ body{
   font-family: var(--font-body);
   font-size: 16px;
   line-height: 1.55;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   transition: background .3s var(--ease), color .3s var(--ease);
 }
@@ -129,6 +130,7 @@ h3,.h3{ font-family: var(--font-display); font-weight: 600; line-height: 1.08; f
 .main-nav{ display:flex; align-items:center; gap:28px; }
 .main-nav a{ text-decoration:none; font-size:.94rem; color:var(--ink-soft); padding:6px 0; border-bottom:1px solid transparent; transition: color .2s var(--ease), border-color .2s var(--ease); }
 .main-nav a:hover, .main-nav a:focus-visible{ color: var(--ink); border-color: var(--accent); }
+.main-nav a[aria-current="true"]{ color: var(--ink); border-color: var(--accent); }
 .header-actions{ display:flex; align-items:center; gap:14px; }
 
 .lang-switch{ display:flex; gap:2px; font-size:.78rem; font-weight:600; }
@@ -321,6 +323,11 @@ h3,.h3{ font-family: var(--font-display); font-weight: 600; line-height: 1.08; f
 .field input:focus-visible, .field textarea:focus-visible{ outline:2px solid var(--accent); outline-offset:1px; }
 .field textarea{ min-height:130px; resize:vertical; }
 .form-note{ font-size:.78rem; color:var(--ink-soft); }
+.form-status{ font-size:.85rem; font-weight:600; margin:0; min-height:1.2em; }
+.form-status[data-state="ok"]{ color: var(--focus-green); }
+:root[data-theme="dark"] .form-status[data-state="ok"]{ color: var(--accent); }
+.form-status[data-state="error"]{ color:#C0392B; }
+:root[data-theme="dark"] .form-status[data-state="error"]{ color:#E88B7D; }
 
 /* ---------- 15. Footer ---------- */
 .site-footer{ border-top:1px solid var(--line); padding: 56px 0 28px; }
@@ -373,6 +380,25 @@ h3,.h3{ font-family: var(--font-display); font-weight: 600; line-height: 1.08; f
 .cookie-actions{ display:flex; gap:10px; flex-wrap:wrap; }
 .cookie-banner .btn-ghost{ border-color: rgba(242,239,232,.3); color: var(--paper); }
 
+/* ---------- 19b. Floating WhatsApp button ---------- */
+.wa-fab{
+  position:fixed; right:18px; bottom:18px; z-index:150;
+  width:56px; height:56px; border-radius:50%;
+  background:#25D366; color:#fff; display:flex; align-items:center; justify-content:center;
+  box-shadow: 0 8px 24px rgba(0,0,0,.22); text-decoration:none;
+  transition: transform .2s var(--ease), box-shadow .2s var(--ease);
+}
+.wa-fab:hover{ transform: translateY(-2px) scale(1.04); box-shadow: 0 12px 30px rgba(0,0,0,.28); }
+.wa-fab svg{ width:28px; height:28px; }
+.wa-fab[hidden]{ display:none; }
+@media (max-width: 760px){
+  .wa-fab{ width:52px; height:52px; right:14px; bottom:14px; }
+  .cookie-banner{ right:12px; left:12px; }
+}
+
+/* ---------- 19c. No-JS fallback ---------- */
+.reveal.no-js-visible{ opacity:1; transform:none; }
+
 /* ---------- 20. Empty states ---------- */
 .empty-state{ text-align:left; padding:40px 0; color:var(--ink-soft); font-size:.95rem; }
 
@@ -405,4 +431,24 @@ h3,.h3{ font-family: var(--font-display); font-weight: 600; line-height: 1.08; f
   .method-step{ grid-template-columns: 56px 1fr; }
   .method-step .num{ font-size:1.7rem; }
   .method-step .content{ flex-direction:column; }
+  .hero-visual .badge{ left:0; }
+  .nav-open{ overflow:hidden; }
+}
+
+@media (max-width: 480px){
+  .site-header .container{ height:64px; gap:12px; }
+  html{ scroll-padding-top: 72px; }
+  .main-nav{ inset: 64px 0 0 0; }
+  .hero{ padding-top:40px; }
+  .hero-actions{ gap:10px; }
+  .hero-actions .btn{ flex:1 1 100%; }
+  .hero-stats{ gap:16px 24px; }
+  .hero-stats .stat b{ font-size:1.6rem; }
+  .hero-visual{ max-width:100%; }
+  .hero-visual .badge{ position:static; margin-top:14px; max-width:none; }
+  .btn{ padding:12px 18px; }
+  .section-head h2{ max-width:none; }
+  .testimonial-slider .t-slide blockquote{ font-size:1.15rem; }
+  .footer-bottom{ flex-direction:column; align-items:flex-start; gap:12px; }
+  .price-card, .service-card{ padding:22px; }
 }
