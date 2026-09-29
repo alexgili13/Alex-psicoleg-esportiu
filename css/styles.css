@@ -415,7 +415,8 @@ h3,.h3{ font-family: var(--font-display); font-weight: 600; line-height: 1.08; f
 
 @media (max-width: 760px){
   .main-nav{
-    position:fixed; inset: 76px 0 0 0; background: var(--paper); padding: 28px var(--gutter);
+    position:fixed; top:76px; left:0; right:0; height: calc(100dvh - 76px); z-index:120;
+    background: var(--paper); padding: 28px var(--gutter);
     display:flex; flex-direction:column; align-items:flex-start; gap:6px; border-top:1px solid var(--line);
     transform: translateX(100%); transition: transform .3s var(--ease); overflow:auto;
   }
@@ -438,7 +439,7 @@ h3,.h3{ font-family: var(--font-display); font-weight: 600; line-height: 1.08; f
 @media (max-width: 480px){
   .site-header .container{ height:64px; gap:12px; }
   html{ scroll-padding-top: 72px; }
-  .main-nav{ inset: 64px 0 0 0; }
+  .main-nav{ top:64px; height: calc(100dvh - 64px); }
   .hero{ padding-top:40px; }
   .hero-actions{ gap:10px; }
   .hero-actions .btn{ flex:1 1 100%; }
