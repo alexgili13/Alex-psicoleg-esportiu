@@ -159,64 +159,64 @@
   },
   "method": {
     "kicker": {
-      "ca": "El mètode",
-      "es": "El método",
-      "en": "The method",
+      "ca": "La manera",
+      "es": "La manera",
+      "en": "The approach",
       "fr": "La méthode"
     },
     "title": {
-      "ca": "Cinc fases, un mateix objectiu: que el rendiment no depengui de l'atzar.",
-      "es": "Cinco fases, un mismo objetivo: que el rendimiento no dependa del azar.",
-      "en": "Five stages, one goal: performance that doesn't depend on luck.",
-      "fr": "Cinq étapes, un seul objectif : une performance qui ne dépend pas du hasard."
+      "ca": "De la consciència a l'autonomia.",
+      "es": "De la consciencia a la autonomía.",
+      "en": "From awareness to autonomy.",
+      "fr": "De la prise de conscience à l’autonomie."
     },
     "steps": [
       {
         "number": 1,
         "icon": "compass",
         "title": {
-          "ca": "Conèixer",
-          "es": "Conocer",
-          "en": "Understand",
-          "fr": "Comprendre"
+          "ca": "Connectar",
+          "es": "Conectar",
+          "en": "Connect",
+          "fr": "Se connecter"
         },
         "description": {
-          "ca": "Primera trobada per entendre la situació esportiva, personal i competitiva. Sense diagnòstics precipitats.",
-          "es": "Primer encuentro para entender la situación deportiva, personal y competitiva. Sin diagnósticos precipitados.",
-          "en": "A first meeting to understand the sporting, personal and competitive context. No rushed diagnoses.",
-          "fr": "Une première rencontre pour comprendre le contexte sportif, personnel et compétitif."
+          "ca": "Abans de treballar, cal conèixer-te. Entendre qui ets, quin ha estat el teu recorregut esportiu, què estàs vivint ara i quines persones i situacions formen part del teu entorn. Aquest primer espai és per escoltar-te sense judicis i entendre què t’ha portat fins aquí. Perquè per treballar bé, primer hem de saber des d’on comencem.",
+          "es": "Antes de trabajar, es necesario conocerte. Entender quién eres, cuál ha sido tu recorrido deportivo, qué estás viviendo ahora y qué personas y situaciones forman parte de tu entorno. Este primer espacio es para escucharte sin juicios y comprender qué te ha llevado hasta aquí. Porque para trabajar bien, primero necesitamos saber desde dónde partimos.",
+          "en": "Before we start working, it is important to get to know you. To understand who you are, your sporting journey, what you are experiencing now, and the people and situations that are part of your environment. This first stage is about listening to you without judgement and understanding what has brought you here. Because in order to work effectively, we first need to understand where you are starting from.",
+          "fr": "Avant de commencer à travailler, il est essentiel de faire connaissance avec vous. Comprendre qui vous êtes, quel a été votre parcours sportif, ce que vous vivez aujourd’hui, ainsi que les personnes et les situations qui font partie de votre environnement. Cette première étape est un espace pour vous écouter sans jugement et comprendre ce qui vous a amené jusqu’ici. Car pour travailler efficacement, il faut d’abord savoir d’où l’on part."
         }
       },
       {
         "number": 2,
         "icon": "target",
         "title": {
-          "ca": "Analitzar",
-          "es": "Analizar",
-          "en": "Analyse",
-          "fr": "Analyser"
+          "ca": "Posar focus",
+          "es": "Poner foco",
+          "en": "Focus",
+          "fr": "Cibler"
         },
         "description": {
-          "ca": "Identifiquem els patrons que ajuden i els que frenen: gestió de la pressió, pensament, activació, hàbits.",
-          "es": "Identificamos los patrones que ayudan y los que frenan: gestión de la presión, pensamiento, activación, hábitos.",
-          "en": "We identify the patterns that help and the ones that hold you back: pressure, thinking, arousal, habits.",
-          "fr": "Nous identifions les schémas qui aident et ceux qui freinent : pression, pensée, activation, habitudes."
+          "ca": "De vegades sabem què ens passa, però no acabem d’entendre per què. Altres vegades arribem amb un problema que, quan aprofundim, ens porta a un altre lloc. En aquesta fase posem ordre, identifiquem què està condicionant el teu rendiment i definim què necessitem treballar. L’objectiu és passar de la sensació de “no sé què em passa” a tenir clar què està passant i cap a on volem anar.",
+          "es": "A veces sabemos qué nos pasa, pero no acabamos de entender por qué. Otras veces llegamos con un problema que, cuando profundizamos, nos lleva a otro lugar. En esta fase ponemos orden, identificamos qué está condicionando tu rendimiento y definimos qué necesitamos trabajar. El objetivo es pasar de la sensación de «no sé qué me pasa» a tener claro qué está ocurriendo y hacia dónde queremos ir.",
+          "en": "Sometimes we know what is happening, but we do not fully understand why. At other times, we arrive with one concern and, as we explore it further, discover that something else lies underneath. At this stage, we bring clarity to what is happening, identify what may be affecting your performance, and define what needs to be worked on. The aim is to move from «I don't really know what's happening to me» to having a clear understanding of what is going on and where we want to go.",
+          "fr": "Parfois, nous savons ce qui ne va pas sans vraiment comprendre pourquoi. D’autres fois, nous arrivons avec une difficulté qui, en approfondissant, nous conduit vers autre chose. À cette étape, nous mettons de l’ordre, identifions ce qui peut influencer votre performance et définissons ce que nous allons travailler. L’objectif est de passer du sentiment de « je ne sais pas vraiment ce qui m’arrive » à une compréhension claire de ce qui se passe et de la direction que nous voulons prendre."
         }
       },
       {
         "number": 3,
         "icon": "layers",
         "title": {
-          "ca": "Treballar",
-          "es": "Trabajar",
-          "en": "Work",
-          "fr": "Travailler"
+          "ca": "Construir",
+          "es": "Construir",
+          "en": "Build",
+          "fr": "Construire"
         },
         "description": {
-          "ca": "Sessions centrades en objectius concrets: confiança, concentració, gestió de l'error, autoexigència.",
-          "es": "Sesiones centradas en objetivos concretos: confianza, concentración, gestión del error, autoexigencia.",
-          "en": "Sessions focused on concrete goals: confidence, focus, handling mistakes, self-demand.",
-          "fr": "Séances centrées sur des objectifs concrets : confiance, concentration, gestion de l'erreur."
+          "ca": "A partir d’aquí comença el treball. Definim objectius i construïm recursos adaptats a tu: eines per gestionar la pressió, la confiança, la concentració, l’error, l’autoexigència o qualsevol altre aspecte que necessitis treballar. El treball no acaba quan surtis de la sessió: també t’emportes recursos i propostes per continuar entrenant entre sessions.",
+          "es": "A partir de aquí comienza el trabajo. Definimos objetivos y construimos recursos adaptados a ti: herramientas para gestionar la presión, la confianza, la concentración, el error, la autoexigencia o cualquier otro aspecto que necesites trabajar. El trabajo no termina cuando sales de la sesión: también te llevas recursos y propuestas para seguir entrenando entre sesiones.",
+          "en": "This is where the work begins. We set goals and build resources tailored to you: tools to manage pressure, confidence, concentration, mistakes, self-imposed demands, or any other aspect you need to work on. The work does not end when the session does. You also take away resources and practical exercises to continue training between sessions.",
+          "fr": "C’est à partir de là que le travail commence. Nous définissons des objectifs et construisons des ressources adaptées à votre situation : des outils pour gérer la pression, la confiance, la concentration, l’erreur, l’exigence envers soi-même ou tout autre aspect que vous souhaitez travailler. Le travail ne s’arrête pas à la fin de la séance : vous repartez également avec des ressources et des exercices à poursuivre entre les séances."
         }
       },
       {
@@ -226,29 +226,29 @@
           "ca": "Entrenar",
           "es": "Entrenar",
           "en": "Train",
-          "fr": "Entraîner"
+          "fr": "S'entraîner"
         },
         "description": {
-          "ca": "Portem les eines a l'entrenament i a la competició, amb seguiment i ajustos constants.",
-          "es": "Llevamos las herramientas al entrenamiento y a la competición, con seguimiento y ajustes constantes.",
-          "en": "We take the tools into training and competition, with ongoing follow-up and adjustment.",
-          "fr": "Nous transposons les outils à l'entraînement et à la compétition, avec un suivi constant."
+          "ca": "Saber utilitzar una eina no vol dir saber aplicar-la quan més la necessites. Per això, el que treballem ho portem a l’entrenament i a la competició. Practiquem, posem a prova els recursos, revisem què funciona i què cal ajustar. Com qualsevol altre aspecte de l’esport, la preparació mental necessita pràctica per convertir-se en una resposta real quan arriba el moment de competir.",
+          "es": "Saber utilizar una herramienta no significa saber aplicarla cuando más la necesitas. Por eso, lo que trabajamos lo llevamos al entrenamiento y a la competición. Practicamos, ponemos a prueba los recursos, revisamos qué funciona y qué necesitamos ajustar. Como cualquier otro aspecto del deporte, la preparación mental necesita práctica para convertirse en una respuesta real cuando llega el momento de competir.",
+          "en": "Knowing a tool does not necessarily mean knowing how to use it when you need it most. That is why we take what we work on into training and competition. We practise, put the resources to the test, review what works and adjust what needs to change. Just like any other aspect of sport, mental preparation requires practice to become something you can rely on when competition begins.",
+          "fr": "Connaître un outil ne signifie pas nécessairement savoir l’utiliser lorsque vous en avez le plus besoin. C’est pourquoi nous intégrons ce que nous travaillons à l’entraînement et à la compétition. Nous pratiquons, mettons les outils à l’épreuve, observons ce qui fonctionne et ajustons ce qui doit l’être. Comme tout autre aspect du sport, la préparation mentale nécessite de l’entraînement pour devenir une réponse sur laquelle vous pouvez compter lorsque la compétition commence."
         }
       },
       {
         "number": 5,
         "icon": "shield",
         "title": {
-          "ca": "Consolidar",
-          "es": "Consolidar",
-          "en": "Consolidate",
-          "fr": "Consolider"
+          "ca": "Alliberar",
+          "es": "Liberar",
+          "en": "Free",
+          "fr": "Se libérer"
         },
         "description": {
-          "ca": "L'objectiu final és l'autonomia: que les eines es quedin amb tu, no amb mi.",
-          "es": "El objetivo final es la autonomía: que las herramientas se queden contigo, no conmigo.",
-          "en": "The end goal is autonomy: the tools stay with you, not with me.",
-          "fr": "L'objectif final est l'autonomie : que les outils restent avec vous, pas avec moi."
+          "ca": "L’objectiu no és que depenguis de les sessions, sinó que cada vegada necessitis menys que algú t’expliqui què fer. Consolidem els recursos perquè els puguis aplicar pel teu compte, reconèixer què necessites i saber com actuar davant de nous reptes. Tanquem el procés quan les eines ja són teves. I això no significa perdre el contacte: si en algun moment vols tornar a treballar, la porta continua oberta.",
+          "es": "El objetivo no es que dependas de las sesiones, sino que cada vez necesites menos que alguien te diga qué hacer. Consolidamos los recursos para que puedas aplicarlos por tu cuenta, reconocer qué necesitas y saber cómo actuar ante nuevos retos. Cerramos el proceso cuando las herramientas ya son tuyas. Y eso no significa perder el contacto: si en algún momento quieres volver a trabajar, la puerta sigue abierta.",
+          "en": "The goal is not for you to depend on the sessions, but to gradually need less external guidance. We consolidate the resources so that you can apply them independently, recognise what you need and know how to respond to new challenges. We close the process when the tools have become yours. And that does not mean losing contact: if at any point you feel you want to work together again, the door remains open.",
+          "fr": "L’objectif n’est pas que vous deveniez dépendant des séances, mais que vous ayez progressivement de moins en moins besoin d’un accompagnement extérieur. Nous consolidons les ressources pour que vous puissiez les utiliser de manière autonome, identifier ce dont vous avez besoin et savoir comment faire face aux nouveaux défis. Nous clôturons le processus lorsque les outils sont devenus les vôtres. Et cela ne signifie pas perdre le contact : si vous souhaitez reprendre le travail à un moment donné, la porte reste ouverte."
         }
       }
     ]
