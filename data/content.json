@@ -104,55 +104,55 @@
   },
   "about": {
     "kicker": {
-      "ca": "Qui soc",
-      "es": "Quién soy",
-      "en": "About me",
-      "fr": "Qui suis-je"
+      "ca": "La mirada",
+      "es": "La mirada",
+      "en": "The perspective",
+      "fr": "Le regard"
     },
     "title": {
-      "ca": "Vinc de l'esport abans que de la consulta.",
-      "es": "Vengo del deporte antes que de la consulta.",
-      "en": "I come from sport before the therapy room.",
-      "fr": "Je viens du sport avant le cabinet."
+      "ca": "La persona darrere del psicòleg esportiu.",
+      "es": "La persona detrás del psicólogo deportivo.",
+      "en": "The person behind the sports psychologist.",
+      "fr": "La personne derrière le psychologue du sport."
     },
     "paragraphs": [
       {
-        "ca": "[Aquí va la teva formació: grau/màster en Psicologia, especialització en Psicologia de l'Esport i l'Exercici, certificacions rellevants.]",
-        "es": "[Aquí va tu formación: grado/máster en Psicología, especialización en Psicología del Deporte, certificaciones relevantes.]",
-        "en": "[Your background goes here: degree/masters in Psychology, specialisation in Sport Psychology, relevant certifications.]",
-        "fr": "[Votre formation ici : diplôme/master en psychologie, spécialisation en psychologie du sport, certifications pertinentes.]"
+        "ca": "La meva manera d’entendre la psicologia esportiva parteix d’una idea molt clara: darrere de cada esportista hi ha una persona. Per això, el meu treball no se centra només en el rendiment, sinó també en el benestar, el creixement personal i la manera com vivim l’esport. Des del 2022 exerceixo com a psicòleg esportiu, acompanyant esportistes, entrenadors i famílies en contextos molt diversos, des de l’esport amateur fins a l’alt rendiment, incloent-hi esportistes de seleccions nacionals i internacionals.",
+        "es": "Mi manera de entender la psicología deportiva parte de una idea muy clara: detrás de cada deportista hay una persona. Por eso, mi trabajo no se centra únicamente en el rendimiento, sino también en el bienestar, el crecimiento personal y la manera en que vivimos el deporte. Desde 2022 ejerzo como psicólogo deportivo, acompañando a deportistas, entrenadores y familias en contextos muy diversos, desde el deporte amateur hasta el alto rendimiento, incluyendo deportistas de selecciones nacionales e internacionales.",
+        "en": "My approach to sport psychology is built around one clear idea: behind every athlete, there is a person. That is why my work focuses not only on performance, but also on wellbeing, personal growth and the way we experience sport. Since 2022, I have worked as a sport psychologist, supporting athletes, coaches and families across a wide range of contexts, from amateur sport to high-performance environments, including athletes competing at national and international level.",
+        "fr": "Ma manière de concevoir la psychologie du sport repose sur une idée essentielle : derrière chaque sportif se trouve une personne. C’est pourquoi mon travail ne se concentre pas uniquement sur la performance, mais aussi sur le bien-être, le développement personnel et la manière dont nous vivons le sport. Depuis 2022, j’exerce en tant que psychologue du sport, en accompagnant des sportifs, des entraîneurs et des familles dans des contextes très variés, du sport amateur au haut niveau, notamment auprès de sportifs évoluant au niveau national et international."
       },
       {
-        "ca": "[Explica la teva trajectòria: anys d'experiència, tipus d'esportistes o equips amb qui has treballat, si tens experiència esportiva pròpia.]",
-        "es": "[Explica tu trayectoria: años de experiencia, tipo de deportistas o equipos con los que has trabajado, experiencia deportiva propia si la tienes.]",
-        "en": "[Describe your path: years of experience, the athletes or teams you've worked with, your own sporting background if relevant.]",
-        "fr": "[Décrivez votre parcours : années d'expérience, athlètes ou équipes accompagnés, votre propre expérience sportive.]"
+        "ca": "He treballat tant en processos individuals com en equips i projectes esportius, adaptant cada intervenció a les necessitats de la persona i del context. No hi ha dues persones ni dues trajectòries esportives iguals, i per això entenc la psicologia com un procés proper, rigorós i personalitzat. La meva experiència amb esportistes, entrenadors i famílies m’ha permès conèixer de prop les diferents realitats que formen part de l’esport i entendre que el rendiment i el benestar no són camins separats.",
+        "es": "He trabajado tanto en procesos individuales como con equipos y proyectos deportivos, adaptando cada intervención a las necesidades de la persona y del contexto. No hay dos personas ni dos trayectorias deportivas iguales, y por eso entiendo la psicología como un proceso cercano, riguroso y personalizado. Mi experiencia con deportistas, entrenadores y familias me ha permitido conocer de cerca las diferentes realidades que forman parte del deporte y entender que el rendimiento y el bienestar no son caminos separados.",
+        "en": "I have worked both through individual processes and with teams and sports projects, adapting each intervention to the needs of the person and the context. No two people or sporting journeys are the same, which is why I see psychology as a personal, rigorous and close process. My experience with athletes, coaches and families has allowed me to understand the different realities that shape sport and to recognise that performance and wellbeing are not separate paths.",
+        "fr": "J’ai travaillé aussi bien dans le cadre de suivis individuels qu’avec des équipes et des projets sportifs, en adaptant chaque intervention aux besoins de la personne et à son contexte. Il n’existe pas deux personnes ni deux parcours sportifs identiques, c’est pourquoi je conçois la psychologie comme un processus à la fois humain, rigoureux et personnalisé. Mon expérience auprès des sportifs, des entraîneurs et des familles m’a permis de comprendre les différentes réalités qui composent le monde du sport et de voir que performance et bien-être ne sont pas deux chemins distincts."
       },
       {
-        "ca": "[Explica la teva filosofia de treball i els valors que la sostenen: rigor, proximitat, confidencialitat, treball basat en evidència.]",
-        "es": "[Explica tu filosofía de trabajo y los valores que la sostienen: rigor, cercanía, confidencialidad, trabajo basado en evidencia.]",
-        "en": "[Describe your working philosophy and the values behind it: rigour, closeness, confidentiality, evidence-based practice.]",
-        "fr": "[Décrivez votre philosophie de travail et vos valeurs : rigueur, proximité, confidentialité, pratique fondée sur des preuves.]"
+        "ca": "La meva formació es complementa amb un Màster en Psicologia de l’Esport i d’Activitat Física i amb experiència en gestió de projectes com a Project Manager. Durant el Grau en Psicologia vaig obtenir Matrícula d’Honor en Psicologia Clínica i en Ètica i Deontologia, dues àrees que formen part de la base des de la qual entenc i exerceixo la professió.",
+        "es": "Mi formación se complementa con un Máster en Psicología del Deporte y de la Actividad Física y con experiencia en gestión de proyectos como Project Manager. Durante el Grado en Psicología obtuve Matrícula de Honor en Psicología Clínica y en Ética y Deontología, dos áreas que forman parte de la base desde la cual entiendo y ejerzo la profesión.",
+        "en": "My academic background is complemented by a Master’s Degree in Sport and Physical Activity Psychology and experience as a Project Manager. During my Psychology degree, I received Distinction in Clinical Psychology and in Ethics and Deontology, two areas that form part of the foundation from which I understand and practise my profession.",
+        "fr": "Ma formation est complétée par un Master en Psychologie du Sport et de l’Activité Physique, ainsi que par une expérience en gestion de projets en tant que Project Manager. Durant ma licence en psychologie, j’ai obtenu une mention d’excellence en Psychologie clinique et en Éthique et déontologie, deux domaines qui font partie des bases sur lesquelles je fonde ma pratique professionnelle."
       }
     ],
     "credentials": [
       {
-        "ca": "[Titulació 1 — universitat, any]",
-        "es": "[Titulación 1 — universidad, año]",
-        "en": "[Credential 1 — university, year]",
-        "fr": "[Diplôme 1 — université, année]"
+        "ca": "Grau en Psicologia - Universitat de Barcelona",
+        "es": "Grado en Psicología - Universidad de Barcelona",
+        "en": "Degree in Psychology — Universitat de Barcelona",
+        "fr": "Licence en Psychologie — Universitat de Barcelona"
       },
       {
-        "ca": "[Titulació / certificació 2]",
-        "es": "[Titulación / certificación 2]",
-        "en": "[Credential / certification 2]",
-        "fr": "[Diplôme / certification 2]"
+        "ca": "Master en psicologia de l'esport i de l'activitat física - Universitat Autónoma de Barcelona",
+        "es": "Máster en Psicología del Deporte y de la Actividad Física - Universidad Autónoma de Barcelona",
+        "en": "Master’s Degree in Sport and Physical Activity Psychology — Universitat Autònoma de Barcelona",
+        "fr": "Master en Psychologie du Sport et de l’Activité Physique — Universitat Autònoma de Barcelona"
       },
       {
-        "ca": "[Col·legiat/da núm. XXXXX]",
-        "es": "[Colegiado/a núm. XXXXX]",
-        "en": "[Registered psychologist No. XXXXX]",
-        "fr": "[Inscrit(e) au registre n° XXXXX]"
+        "ca": "Postgrau en Direcció de Projectes - EADA BUSINESS SCHOOL",
+        "es": "Postgrado en Dirección de Proyectos - EADA BUSINESS SCHOOL",
+        "en": "Postgraduate Diploma in Project Management — EADA BUSINESS SCHOOL",
+        "fr": "Diplôme de troisième cycle en Gestion de projets — EADA BUSINESS SCHOOL"
       }
     ],
     "image": "assets/images/about-placeholder.svg"
