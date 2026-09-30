@@ -257,9 +257,8 @@ h3,.h3{ font-family: var(--font-display); font-weight: 600; line-height: 1.08; f
 
 /* ---------- 11. Clients / trust ---------- */
 .clients-note{ font-size:.85rem; color:var(--ink-soft); margin-bottom:28px; border-left:2px solid var(--accent); padding-left:14px; max-width:60ch; }
-.clients-row{ display:flex; flex-wrap:wrap; gap:16px; align-items:center; }
-.clients-row img{ height:64px; width:auto; opacity:.85; transition: opacity .2s var(--ease); }
-.clients-row img:hover{ opacity:1; }
+.clients-row{ display:flex; flex-wrap:wrap; gap:16px; align-items:center; justify-content:center; width:100%; }
+.clients-row img{ height:64px; width:auto; max-width:160px; opacity:1; object-fit:contain; }
 
 /* ---------- 12. Testimonials ---------- */
 .testimonial-slider{ position:relative; max-width: 780px; }

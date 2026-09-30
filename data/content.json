@@ -645,10 +645,10 @@
   ],
   "clients": {
     "kicker": {
-      "ca": "Processos compartits",
-      "es": "Procesos compartidos",
-      "en": "Shared processes",
-      "fr": "Processus partagés"
+      "ca": "Confien",
+      "es": "Confían",
+      "en": "They trust",
+      "fr": "Ils font confiance"
     },
     "title": {
       "ca": "Esportistes, clubs i organitzacions",
@@ -666,32 +666,62 @@
       {
         "id": "cl-1",
         "active": true,
-        "name": "Club Demo A",
-        "image": "assets/images/client-1.svg"
+        "name": "FCBQ",
+        "image": "assets/images/fcbq.jpg"
       },
       {
         "id": "cl-2",
         "active": true,
-        "name": "Club Demo B",
-        "image": "assets/images/client-2.svg"
+        "name": "C.F.S. Eixample",
+        "image": "assets/images/eixample.png"
       },
       {
         "id": "cl-3",
         "active": true,
-        "name": "Club Demo C",
-        "image": "assets/images/client-3.svg"
+        "name": "A.E. Les Corts-UBAE",
+        "image": "assets/images/ubae.png"
       },
       {
         "id": "cl-4",
         "active": true,
-        "name": "Club Demo D",
-        "image": "assets/images/client-4.svg"
+        "name": "Claret Llops",
+        "image": "assets/images/claret.png"
       },
       {
         "id": "cl-5",
         "active": true,
-        "name": "Club Demo E",
-        "image": "assets/images/client-5.svg"
+        "name": "Campus Gigantes",
+        "image": "assets/images/gigantes.jpeg"
+      },
+      {
+        "id": "cl-6",
+        "active": true,
+        "name": "Joventut Les Corts (JLC)",
+        "image": "assets/images/jlc.png"
+      },
+      {
+        "id": "cl-7",
+        "active": true,
+        "name": "CEM Mediterrani",
+        "image": "assets/images/mediterrani.jpeg"
+      },
+      {
+        "id": "cl-8",
+        "active": true,
+        "name": "460 Level Up",
+        "image": "assets/images/level-up-460.png"
+      },
+      {
+        "id": "cl-9",
+        "active": true,
+        "name": "Modum Sport 3.60",
+        "image": "assets/images/modum-sport-360.jpg"
+      },
+      {
+        "id": "cl-10",
+        "active": true,
+        "name": "Sinergia Team & Training S.L.",
+        "image": "assets/images/sinergia.png"
       }
     ]
   },

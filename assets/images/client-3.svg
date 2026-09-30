@@ -1,4 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="240" height="120" viewBox="0 0 240 120">
-<rect width="240" height="120" rx="8" fill="#F2EFE8" stroke="#14171A" stroke-opacity="0.15"/>
-<text x="50%" y="56%" text-anchor="middle" font-family="'Big Shoulders Display', sans-serif" font-weight="700" font-size="33.6" fill="#14171A" opacity="0.7">CLUB DEMO C</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="160" viewBox="0 0 280 160" role="img" aria-label="A.E. Les Corts-UBAE logo">
+  <rect width="280" height="160" fill="#f3f1ee"/>
+  <g transform="translate(20 12)">
+    <path d="M48 96c8-34 20-54 40-68 18-13 39-18 66-14 27 3 44 18 54 36 7 13 11 30 9 48-2 20-13 32-28 42-16 11-36 16-59 16-26 0-48-7-64-19-17-13-26-29-18-41z" fill="#0b7c4e"/>
+    <path d="M75 100c12-20 28-32 46-36 22-5 38 1 51 17 10 12 13 30 9 42-4 20-30 33-63 33-26 0-45-9-54-25-7-13-1-22 11-31z" fill="#0d5d45" opacity="0.27"/>
+    <path d="M92 54c17-6 34-6 49 2 12 7 18 18 17 30-1 1-6 5-13 6-13 2-25 2-36-4-11-7-18-20-17-34z" fill="#e5d449"/>
+    <rect x="120" y="80" width="90" height="28" rx="14" fill="#e5d449"/>
+    <text x="155" y="102" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="900" fill="#0b7c4e">A.E. LES CORTS</text>
+    <text x="155" y="122" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="900" fill="#0b7c4e">UBAE</text>
+  </g>
 </svg>

@@ -167,9 +167,9 @@ function renderPricing(){
 function renderClients(){
   const c = CONTENT.clients;
   $("#clients-kicker").textContent = t(c.kicker, LANG);
-  $("#clients-title").innerHTML = `${esc(t(c.title, LANG))}<span class="demo-flag">${esc(ui("demo", LANG))}</span>`;
+  $("#clients-title").textContent = t(c.title, LANG);
   $("#clients-note").textContent = t(c.note, LANG);
-  $("#clients-row").innerHTML = (c.items || []).filter(i => i.active).map(i => `<img src="${i.image}" alt="${esc(i.name)} (${esc(ui("demo", LANG))})" loading="lazy">`).join("");
+  $("#clients-row").innerHTML = (c.items || []).filter(i => i.active).map(i => `<img src="${i.image}" alt="${esc(i.name)}" loading="lazy">`).join("");
 }
 
 let slideIndex = 0;
