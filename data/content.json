@@ -284,16 +284,16 @@
     },
     "testimonials": {
       "kicker": {
-        "ca": "Testimonis",
-        "es": "Testimonios",
-        "en": "Testimonials",
-        "fr": "Témoignages"
+        "ca": "Valoracions",
+        "es": "Valoraciones",
+        "en": "Reviews",
+        "fr": "Avis"
       },
       "title": {
-        "ca": "El que expliquen qui hi han treballat",
-        "es": "Lo que cuentan quienes han trabajado conmigo",
-        "en": "What people say after working together",
-        "fr": "Ce que disent celles et ceux qui ont travaillé avec moi"
+        "ca": "Parlen els que ho han viscut",
+        "es": "Hablan quienes lo han vivido",
+        "en": "Hear from those who have experienced it",
+        "fr": "Ils en parlent de leur expérience"
       }
     },
     "articles": {
@@ -514,10 +514,10 @@
         "fr": "—"
       },
       "cta": {
-        "ca": "—",
-        "es": "—",
-        "en": "—",
-        "fr": "—"
+        "ca": "Proposa",
+        "es": "Propón",
+        "en": "Suggest",
+        "fr": "Propose"
       }
     }
   ],
@@ -645,22 +645,22 @@
   ],
   "clients": {
     "kicker": {
-      "ca": "Confiança",
-      "es": "Confianza",
-      "en": "Trust",
-      "fr": "Confiance"
+      "ca": "Processos compartits",
+      "es": "Procesos compartidos",
+      "en": "Shared processes",
+      "fr": "Processus partagés"
     },
     "title": {
-      "ca": "Esportistes, clubs i organitzacions — contingut DEMO",
-      "es": "Deportistas, clubes y organizaciones — contenido DEMO",
-      "en": "Athletes, clubs and organisations — DEMO content",
-      "fr": "Athlètes, clubs et organisations — contenu DÉMO"
+      "ca": "Esportistes, clubs i organitzacions",
+      "es": "Deportistas, clubes y organizaciones",
+      "en": "Athletes, clubs and organisations",
+      "fr": "Athlètes, clubs et organisations"
     },
     "note": {
-      "ca": "Els logos i noms d'aquesta secció són exemples de demostració. Substitueix-los pels teus clients reals des de l'admin.",
-      "es": "Los logos y nombres de esta sección son ejemplos de demostración. Sustitúyelos por tus clientes reales desde el admin.",
-      "en": "The logos and names in this section are demo examples. Replace them with your real clients from the admin.",
-      "fr": "Les logos et noms de cette section sont des exemples de démonstration."
+      "ca": "Esportistes, entrenadors, famílies, professionals d'aquests clubs i organitzacions han format part de processos de treball enfocats a rendir millor, competir millor i viure millor l'esport.",
+      "es": "Deportistas, entrenadores, familias y profesionales de estos clubes y organizaciones han formado parte de procesos de trabajo enfocados en rendir mejor, competir mejor y vivir mejor el deporte.",
+      "en": "Athletes, coaches, families and professionals from these clubs and organisations have been part of working processes focused on performing better, competing better and experiencing sport in a healthier way.",
+      "fr": "Des sportifs, entraîneurs, familles et professionnels de ces clubs et organisations ont participé à des processus de travail visant à mieux performer, mieux concourir et mieux vivre le sport."
     },
     "items": [
       {
