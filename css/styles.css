@@ -125,10 +125,10 @@ h3,.h3{ font-family: var(--font-display); font-weight: 600; line-height: 1.08; f
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
 }
-.site-header .container{ display:flex; align-items:center; justify-content:space-between; height:76px; gap:24px; }
+.site-header .container{ display:grid; grid-template-columns:auto minmax(0,1fr) auto; align-items:center; height:76px; gap:24px; }
 .brand{ display:flex; align-items:center; gap:10px; font-family: var(--font-display); font-weight:700; font-size:1.2rem; text-decoration:none; white-space:nowrap; }
 .brand .dot{ width:9px; height:9px; border-radius:50%; background:var(--accent); }
-.main-nav{ display:flex; align-items:center; gap:28px; }
+.main-nav{ display:flex; align-items:center; justify-content:center; gap:28px; min-width:0; }
 .main-nav a{ text-decoration:none; font-size:.94rem; color:var(--ink-soft); padding:6px 0; border-bottom:1px solid transparent; transition: color .2s var(--ease), border-color .2s var(--ease); }
 .main-nav a:hover, .main-nav a:focus-visible{ color: var(--ink); border-color: var(--accent); }
 .main-nav a[aria-current="true"]{ color: var(--ink); border-color: var(--accent); }

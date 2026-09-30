@@ -150,8 +150,9 @@ function renderServices(){
 }
 
 function renderPricing(){
-  const list = (CONTENT.pricing || []).filter(p => p.active);
   const grid = $("#pricing-grid");
+  if (!grid) return;
+  const list = (CONTENT.pricing || []).filter(p => p.active);
   grid.innerHTML = list.map(p => `
     <div class="price-card ${p.recommended ? "recommended" : ""}">
       ${p.recommended ? `<span class="flag">${esc(ui("recommended", LANG))}</span>` : ""}
@@ -228,16 +229,18 @@ function renderArticles(){
 }
 
 function renderNews(){
-  const list = (CONTENT.news || []).filter(n => n.active).sort((a, b) => b.date.localeCompare(a.date));
   const grid = $("#news-grid");
+  if (!grid) return;
+  const list = (CONTENT.news || []).filter(n => n.active).sort((a, b) => b.date.localeCompare(a.date));
   grid.innerHTML = list.length
     ? list.map(n => postCard(n, "news", "title", "image", "excerpt", "date", "category")).join("")
     : `<p class="empty-state">${esc(ui("emptyNews", LANG))}</p>`;
 }
 
 function renderResources(){
-  const list = (CONTENT.resources || []).filter(r => r.active).sort((a, b) => b.date.localeCompare(a.date));
   const grid = $("#resources-grid");
+  if (!grid) return;
+  const list = (CONTENT.resources || []).filter(r => r.active).sort((a, b) => b.date.localeCompare(a.date));
   if (!list.length){ grid.innerHTML = `<p class="empty-state">${esc(ui("emptyResources", LANG))}</p>`; return; }
   grid.innerHTML = list.map(r => `
     <div class="resource-card">
@@ -381,12 +384,12 @@ function render(){
   renderMethod();
   renderDataT();
   renderServices();
-  renderPricing();
+  if ($("#pricing-grid")) renderPricing();
   renderClients();
   renderTestimonials();
   renderArticles();
-  renderNews();
-  renderResources();
+  if ($("#news-grid")) renderNews();
+  if ($("#resources-grid")) renderResources();
   renderContact();
 }
 
