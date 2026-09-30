@@ -752,6 +752,63 @@
         "en": "Álex taught our daughter to put the game before the result, to value effort, believe in herself, and embrace many other values that have helped shape the player she is today. Thank you so much for your dedication!",
         "fr": "Álex a appris à notre fille à privilégier le jeu plutôt que le résultat, à valoriser l’effort, à avoir confiance en elle… ainsi que de nombreuses autres valeurs qui ont contribué à faire d’elle la joueuse qu’elle est aujourd’hui. Merci beaucoup pour ton dévouement !"
       }
+    },
+        {
+      "id": "test-4",
+      "active": true,
+      "name": "AGT",
+      "role": {
+        "ca": "Jugadora de futbol",
+        "es": "Jugadora de fútbol",
+        "en": "Football player",
+        "fr": "Footballeur"
+      },
+      "club": "Club Futbol Sala Eixample",
+      "photo": "assets/images/testimonial-4.svg",
+      "text": {
+        "ca": "Té un tracte molt proper i utilitza un llenguatge entenedor i adequat per als joves esportistes.",
+        "es": "Tiene un trato muy cercano y utiliza un lenguaje comprensible y adecuado para los jóvenes deportistas.",
+        "en": "He has a very approachable manner and uses language that is easy to understand and appropriate for young athletes.",
+        "fr": "Il a une approche très accessible et utilise un langage clair, facile à comprendre et adapté aux jeunes sportifs."
+      }
+    },
+    {
+      "id": "test-5",
+      "active": true,
+      "name": "CR",
+      "role": {
+        "ca": "Coordinador",
+        "es": "Coordinador",
+        "en": "Coordinator",
+        "fr": "Coordinateur"
+      },
+      "club": "Club Joventut Les Corts",
+      "photo": "assets/images/testimonial-5.svg",
+      "text": {
+        "ca": "L’Àlex treballa amb nosaltres des de fa vuit mesos. La seva aportació en diferents fases de la temporada ha estat molt profitosa i important per a la millora del treball en tots els grups.",
+        "es": "Álex trabaja con nosotros desde hace ocho meses. Su aportación en diferentes fases de la temporada ha sido muy provechosa e importante para mejorar el trabajo en todos los grupos.",
+        "en": "Álex has been working with us for eight months. His contribution during different stages of the season has been highly valuable and important in improving the work across all groups.",
+        "fr": "Álex travaille avec nous depuis huit mois. Son apport à différentes étapes de la saison a été très bénéfique et important pour améliorer le travail dans tous les groupes."
+      }
+    },
+    {
+      "id": "test-6",
+      "active": true,
+      "name": "JM",
+      "role": {
+        "ca": "Entrenador de bàsquet",
+        "es": "Entrenador de baloncesto",
+        "en": "Basketball Coach",
+        "fr": "Entraîneur de basket"
+      },
+      "club": "Unió Esportiva Claret",
+      "photo": "assets/images/testimonial-6.svg",
+      "text": {
+        "ca": "A l’inici de la temporada vam contractar l’Àlex per fer dinàmiques d’equip i treballar la gestió de les emocions en partits i entrenaments amb les companyes. Les noies van acabar molt contentes i jo, personalment, encantat amb el tracte rebut i amb els diferents punts de vista aportats davant de diverses situacions.",
+        "es": "Al inicio de la temporada contratamos a Álex para realizar dinámicas de equipo y trabajar la gestión de las emociones en partidos y entrenamientos con las compañeras. Las chicas acabaron muy contentas y yo, personalmente, encantado con el trato recibido y con los diferentes puntos de vista aportados ante distintas situaciones.",
+        "en": "At the beginning of the season, we brought Álex in to run team-building activities and work on emotional management during matches and training sessions with the players. The girls were very happy with the experience, and I was personally delighted with the support, approach and different perspectives he brought to different situations.",
+        "fr": "Au début de la saison, nous avons fait appel à Álex pour mettre en place des dynamiques d’équipe et travailler sur la gestion des émotions lors des matchs et des entraînements avec les joueuses. Les filles ont été très satisfaites de l’expérience et, personnellement, j’ai beaucoup apprécié son accompagnement ainsi que les différents points de vue apportés face aux différentes situations."
+      }
     }
   ],
   "news": [
