@@ -221,8 +221,9 @@ function postCard(item, type, titleField, imageField, excerptField, dateField, c
 }
 
 function renderArticles(){
-  const list = (CONTENT.articles || []).filter(a => a.active).sort((a, b) => b.date.localeCompare(a.date));
   const grid = $("#articles-grid");
+  if (!grid) return;
+  const list = (CONTENT.articles || []).filter(a => a.active).sort((a, b) => b.date.localeCompare(a.date));
   grid.innerHTML = list.length
     ? list.map(a => postCard(a, "article", "title", "image", "intro", "date")).join("")
     : `<p class="empty-state">${esc(ui("emptyArticles", LANG))}</p>`;
@@ -387,7 +388,7 @@ function render(){
   if ($("#pricing-grid")) renderPricing();
   renderClients();
   renderTestimonials();
-  renderArticles();
+  if ($("#articles-grid")) renderArticles();
   if ($("#news-grid")) renderNews();
   if ($("#resources-grid")) renderResources();
   renderContact();
