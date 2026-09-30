@@ -211,7 +211,7 @@ h3,.h3{ font-family: var(--font-display); font-weight: 600; line-height: 1.08; f
 
 /* ---------- 7. About ---------- */
 .about .container{ display:grid; grid-template-columns: .8fr 1.2fr; gap: clamp(32px,5vw,72px); align-items:start; }
-.about-photo{ border-radius: var(--radius-l); overflow:hidden; border:1px solid var(--line); aspect-ratio:4/5; position:sticky; top:100px; }
+.about-photo{ border-radius: var(--radius-l); overflow:hidden; border:1px solid var(--line); aspect-ratio:3/4; position:sticky; top:100px; }
 .about-photo img{ width:100%; height:100%; object-fit:cover; }
 .about-body p{ color:var(--ink-soft); margin-bottom:18px; max-width:60ch; }
 .about-body h2{ margin-bottom:26px; }
