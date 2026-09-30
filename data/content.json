@@ -699,58 +699,58 @@
     {
       "id": "test-1",
       "active": true,
-      "name": "Nom Cognom (DEMO)",
+      "name": "MS",
       "role": {
-        "ca": "Atletisme · 800 m",
-        "es": "Atletismo · 800 m",
-        "en": "Athletics · 800 m",
-        "fr": "Athlétisme · 800 m"
+        "ca": "Entrenador de bàsquet",
+        "es": "Entrenador de baloncesto",
+        "en": "Basketball Coach",
+        "fr": "Entraîneur de basket"
       },
-      "club": "Club Demo A",
+      "club": "Club Joventut Les Corts",
       "photo": "assets/images/testimonial-1.svg",
       "text": {
-        "ca": "[Testimoni de demostració. Substitueix aquest text per un testimoni real del teu esportista, amb el seu consentiment explícit.]",
-        "es": "[Testimonio de demostración. Sustituye este texto por un testimonio real de tu deportista, con su consentimiento explícito.]",
-        "en": "[Demo testimonial. Replace this text with a real testimonial from your athlete, with their explicit consent.]",
-        "fr": "[Témoignage de démonstration à remplacer par un vrai témoignage, avec consentement explicite.]"
+        "ca": "És el primer any que he treballat amb un psicòleg i l'experiència ha sigut immillorable. L'Àlex és una persona propera i empàtica. Un luxe tenir-lo aprop!",
+        "es": "Es el primer año que he trabajado con un psicólogo y la experiencia ha sido inmejorable. Álex es una persona cercana y empática. ¡Un lujo tenerlo cerca!",
+        "en": "This is the first year I’ve worked with a sports psychologist, and the experience has been unbeatable. Álex is warm and empathetic. It’s a real privilege to have him around!",
+        "fr": "C’est la première année que je travaille avec un psychologue du sport et l’expérience a été exceptionnelle. Álex est une personne proche et empathique. C’est un vrai privilège de l’avoir à mes côtés !"
       }
     },
     {
       "id": "test-2",
       "active": true,
-      "name": "Nom Cognom (DEMO)",
+      "name": "MDF",
       "role": {
-        "ca": "Bàsquet · Base",
-        "es": "Baloncesto · Base",
-        "en": "Basketball · Point guard",
-        "fr": "Basket · Meneur"
+        "ca": "Jugador de futbol",
+        "es": "Jugador de fútbol",
+        "en": "Football player",
+        "fr": "Joeur de football"
       },
-      "club": "Club Demo B",
+      "club": "A. E. Les Corts UBAE",
       "photo": "assets/images/testimonial-2.svg",
       "text": {
-        "ca": "[Testimoni de demostració. Pots amagar el club o el nom complet si el teu client prefereix mantenir-se anònim.]",
-        "es": "[Testimonio de demostración. Puedes ocultar el club o el nombre completo si tu cliente prefiere mantenerse anónimo.]",
-        "en": "[Demo testimonial. You can hide the club or full name if your client prefers to stay anonymous.]",
-        "fr": "[Témoignage de démonstration. Le club ou le nom peuvent rester anonymes si besoin.]"
+        "ca": "Gran professional que m'ha ajudat a millorar alguns aspectes de la meva atenció als partits",
+        "es": "Gran profesional que me ha ayudado a mejorar algunos aspectos de mi atención en los partidos",
+        "en": "Great professional who has helped me improve some aspects of my focus during matches",
+        "fr": "Grand professionnel qui m’a aidé à améliorer certains aspects de ma concentration lors des matchs"
       }
     },
     {
       "id": "test-3",
       "active": true,
-      "name": "Entrenador/a (DEMO)",
+      "name": "OC",
       "role": {
-        "ca": "Cos tècnic",
-        "es": "Cuerpo técnico",
-        "en": "Coaching staff",
-        "fr": "Staff technique"
+        "ca": "Família",
+        "es": "Familia",
+        "en": "Family",
+        "fr": "Famille"
       },
-      "club": "Club Demo C",
+      "club": "Club Basket Santfeliuenc",
       "photo": "assets/images/testimonial-3.svg",
       "text": {
-        "ca": "[Testimoni de demostració des de la perspectiva d'un entrenador o cos tècnic.]",
-        "es": "[Testimonio de demostración desde la perspectiva de un entrenador o cuerpo técnico.]",
-        "en": "[Demo testimonial from the perspective of a coach or coaching staff.]",
-        "fr": "[Témoignage de démonstration du point de vue d'un entraîneur.]"
+        "ca": "L'Àlex va ensenyar a la nostra filla a anteposar el joc al resultat, la filosofia de l'esforç, la confiança en si mateixa... i molts altres valors per fer d'ella la jugadora que és avui. Moltes gràcies per la teva dedicació!",
+        "es": "Álex enseñó a nuestra hija a anteponer el juego al resultado, la filosofía del esfuerzo, la confianza en sí misma... y muchos otros valores para convertirla en la jugadora que es hoy. ¡Muchas gracias por tu dedicación!",
+        "en": "Álex taught our daughter to put the game before the result, to value effort, believe in herself, and embrace many other values that have helped shape the player she is today. Thank you so much for your dedication!",
+        "fr": "Álex a appris à notre fille à privilégier le jeu plutôt que le résultat, à valoriser l’effort, à avoir confiance en elle… ainsi que de nombreuses autres valeurs qui ont contribué à faire d’elle la joueuse qu’elle est aujourd’hui. Merci beaucoup pour ton dévouement !"
       }
     }
   ],
