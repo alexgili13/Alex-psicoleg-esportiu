@@ -1080,10 +1080,10 @@
       "fr": "Parlons de votre prochain défi."
     },
     "text": {
-      "ca": "Escriu-me explicant breument la teva situació i et respondré en menys de 48 hores per concretar una primera trobada.",
-      "es": "Escríbeme explicando brevemente tu situación y te responderé en menos de 48 horas para concretar un primer encuentro.",
-      "en": "Write to me with a brief outline of your situation and I'll reply within 48 hours to arrange a first meeting.",
-      "fr": "Écrivez-moi en décrivant brièvement votre situation ; je réponds sous 48 heures."
+      "ca": "Escriu-me explicant breument la teva situació i et respondré en menys de 12 hores per concretar una primera trobada.",
+      "es": "Escríbeme explicando brevemente tu situación y te responderé en menos de 12 horas para concretar un primer encuentro.",
+      "en": "Write to me with a brief outline of your situation and I'll reply within 12 hours to arrange a first meeting.",
+      "fr": "Écrivez-moi en décrivant brièvement votre situation ; je réponds sous 12 heures."
     },
     "formEndpoint": "",
     "formProvider": "mailto"

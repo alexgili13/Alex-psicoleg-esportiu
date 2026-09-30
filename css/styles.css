@@ -72,6 +72,7 @@
 html{ scroll-behavior:smooth; scroll-padding-top: 84px; overflow-x: hidden; }
 body{
   margin:0;
+  padding-top:76px;
   background: var(--paper);
   color: var(--ink);
   font-family: var(--font-body);
@@ -119,7 +120,7 @@ h3,.h3{ font-family: var(--font-display); font-weight: 600; line-height: 1.08; f
 
 /* ---------- 4. Header / nav ---------- */
 .site-header{
-  position: sticky; top:0; z-index:100;
+  position:fixed; top:0; left:0; right:0; z-index:100;
   background: color-mix(in srgb, var(--paper) 88%, transparent);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
@@ -437,6 +438,7 @@ h3,.h3{ font-family: var(--font-display); font-weight: 600; line-height: 1.08; f
 }
 
 @media (max-width: 480px){
+  body{ padding-top:64px; }
   .site-header .container{ height:64px; gap:12px; }
   html{ scroll-padding-top: 72px; }
   .main-nav{ top:64px; height: calc(100dvh - 64px); }
