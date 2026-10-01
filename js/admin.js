@@ -192,7 +192,7 @@ function bindInputs(root){
   });
 }
 
-/* ---------- Collection editor (serveis, preus, clients, testimonis, articles, actualitat, recursos) ---------- */
+/* ---------- Collection editor (serveis, preus, testimonis, articles, actualitat, recursos) ---------- */
 function renderCollectionPanel(cfg){
   const items = getAt(STATE, cfg.key) || [];
   const rows = items.map((item, idx) => {
@@ -298,16 +298,6 @@ const COLLECTIONS = {
       { type: "i18n", key: "cta", label: "Text del botó" }
     ]
   },
-  "clients.items": {
-    key: "clients.items", title: "Clients / confiança", desc: "Logos o noms de clubs i organitzacions. Recorda: no mostris clients reals sense el seu consentiment explícit.",
-    summary: item => ({ title: item.name }),
-    factory: () => ({ id: uid("cl"), active: true, name: "Nom del club (DEMO)", image: "assets/images/client-1.svg" }),
-    fields: [
-      { type: "checkbox", key: "active", label: "Actiu (visible a la web)" },
-      { type: "text", key: "name", label: "Nom" },
-      { type: "image", key: "image", label: "Logo" }
-    ]
-  },
   testimonials: {
     key: "testimonials", title: "Testimonis", desc: "Recorda demanar consentiment explícit abans de publicar el nom o la fotografia de cap esportista.",
     summary: item => ({ title: item.name }),
@@ -319,6 +309,16 @@ const COLLECTIONS = {
       { type: "text", key: "club", label: "Club (opcional)" },
       { type: "image", key: "photo", label: "Fotografia (opcional)" },
       { type: "i18n-area", key: "text", label: "Testimoni" }
+    ]
+  },
+  gallery: {
+    key: "gallery", title: "Galeria", desc: "Fotografies de sessions, ponències i dinàmiques professionals. Afegeix només imatges amb els permisos corresponents.",
+    summary: item => ({ title: item.caption?.ca || item.image || "Fotografia" }),
+    factory: () => ({ id: uid("gallery"), active: true, image: "", caption: { ca: "", es: "", en: "", fr: "" } }),
+    fields: [
+      { type: "checkbox", key: "active", label: "Activa (visible a la web)" },
+      { type: "image", key: "image", label: "Fotografia" },
+      { type: "i18n", key: "caption", label: "Peu de foto (opcional)" }
     ]
   },
   articles: {
@@ -503,7 +503,7 @@ function renderToolsPanel(){
 /* ---------- Router ---------- */
 const PANEL_TITLES = {
   info: "Informació general", hero: "Portada (Hero)", about: "Qui soc", method: "El mètode",
-  services: "Serveis", pricing: "Preus", clients: "Clients / confiança", testimonials: "Testimonis",
+  services: "Serveis", pricing: "Preus", testimonials: "Testimonis", gallery: "Galeria",
   articles: "Articles", news: "Actualitat", resources: "Recursos", contact: "Contacte i xarxes", tools: "Eines i còpia de seguretat"
 };
 
@@ -519,7 +519,6 @@ function renderPanel(name){
   else if (name === "method") panel.innerHTML = renderMethodPanel();
   else if (name === "contact") panel.innerHTML = renderContactPanel();
   else if (name === "tools") { panel.innerHTML = renderToolsPanel(); wireTools(); }
-  else if (name === "clients") { panel.innerHTML = renderCollectionPanel(COLLECTIONS["clients.items"]); wireCollectionPanel(COLLECTIONS["clients.items"]); }
   else if (COLLECTIONS[name]) { panel.innerHTML = renderCollectionPanel(COLLECTIONS[name]); wireCollectionPanel(COLLECTIONS[name]); }
 
   bindInputs(panel);

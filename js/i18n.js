@@ -27,10 +27,10 @@ export function t(field, lang = getLang()){
 }
 
 export const NAV_LABELS = {
-  ca: { about: "Qui soc", method: "Mètode", services: "Serveis", clients: "Confien", testimonials: "Valoracions", news: "Actualitat", resources: "Recursos", contact: "Contacte" },
-  es: { about: "Quién soy", method: "Método", services: "Servicios", clients: "Confían", testimonials: "Valoraciones", news: "Actualidad", resources: "Recursos", contact: "Contacto" },
-  en: { about: "About", method: "Method", services: "Services", clients: "They trust", testimonials: "Testimonials", news: "Updates", resources: "Resources", contact: "Contact" },
-  fr: { about: "Qui suis-je", method: "Méthode", services: "Services", clients: "Ils font confiance", testimonials: "Témoignages", news: "Actualités", resources: "Ressources", contact: "Contact" }
+  ca: { about: "Qui soc", method: "Mètode", services: "Serveis", testimonials: "Valoracions", gallery: "Galeria", news: "Actualitat", resources: "Recursos", contact: "Contacte" },
+  es: { about: "Quién soy", method: "Método", services: "Servicios", testimonials: "Valoraciones", gallery: "Galería", news: "Actualidad", resources: "Recursos", contact: "Contacto" },
+  en: { about: "About", method: "Method", services: "Services", testimonials: "Testimonials", gallery: "Gallery", news: "Updates", resources: "Resources", contact: "Contact" },
+  fr: { about: "Qui suis-je", method: "Méthode", services: "Services", testimonials: "Témoignages", gallery: "Galerie", news: "Actualités", resources: "Ressources", contact: "Contact" }
 };
 
 export const UI_STRINGS = {

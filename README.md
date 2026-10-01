@@ -55,7 +55,7 @@ Un cop vegis la web funcionant a `localhost`, ja pots editar-la.
 
 1. Amb el servidor local en marxa, obre `http://localhost:8000/admin.html`.
 2. Al menú de l'esquerra, tria la secció que vulguis editar (Informació
-   general, Portada, Qui soc, Mètode, Serveis, Preus, Clients, Testimonis,
+   general, Portada, Qui soc, Mètode, Serveis, Preus, Testimonis, Galeria,
    Articles, Actualitat, Recursos, Contacte).
 3. Escriu els teus textos. Els camps amb pestanyes **CAT | ES | EN | FR**
    tenen una versió per idioma — pots deixar-ne alguna buida i es mostrarà el
@@ -74,7 +74,7 @@ Un cop vegis la web funcionant a `localhost`, ja pots editar-la.
 > perdràs els canvis no publicats. Exporta sovint.
 
 ### Crear, editar, eliminar i reordenar
-A les seccions amb llistes (Serveis, Preus, Clients, Testimonis, Articles,
+A les seccions amb llistes (Serveis, Preus, Testimonis, Galeria, Articles,
 Actualitat, Recursos):
 - **➕ Afegeix** crea un element nou en blanc.
 - Fes clic sobre un element de la llista per desplegar-ne els camps.
@@ -218,7 +218,7 @@ teu propi contingut, edita cada pestanya d'idioma des de l'admin.
 - **Dades sensibles**: no publiquis testimonis, noms d'esportistes o detalls
   de casos sense el consentiment exprés de la persona implicada. Els
   continguts de "Clients" i "Testimonis" venen marcats com a DEMO;
-  substitueix-los amb cura.
+   substitueix-los amb cura.
 - **Legal**: `privacitat.html`, `cookies.html` i `avis-legal.html` són
   plantilles genèriques amb camps entre claudàtors. Revisa-les amb un
   professional abans de publicar-les; no és assessorament legal.

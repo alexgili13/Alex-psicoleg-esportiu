@@ -290,6 +290,26 @@
         "fr": "Ils en parlent de leur expérience"
       }
     },
+    "gallery": {
+      "kicker": {
+        "ca": "Galeria",
+        "es": "Galería",
+        "en": "Gallery",
+        "fr": "Galerie"
+      },
+      "title": {
+        "ca": "La meva manera de treballar",
+        "es": "Mi manera de trabajar",
+        "en": "The way I work",
+        "fr": "Ma manière de travailler"
+      },
+      "description": {
+        "ca": "Un espai per conèixer de prop la meva activitat professional: sessions, ponències i dinàmiques per acompanyar esportistes, equips i entorns esportius.",
+        "es": "Un espacio para conocer de cerca mi actividad profesional: sesiones, ponencias y dinámicas para acompañar a deportistas, equipos y entornos deportivos.",
+        "en": "A glimpse into my professional work: sessions, talks and workshops supporting athletes, teams and sporting environments.",
+        "fr": "Un aperçu de mon activité professionnelle : séances, conférences et ateliers auprès de sportifs, d’équipes et d’environnements sportifs."
+      }
+    },
     "articles": {
       "kicker": {
         "ca": "Articles",
@@ -637,88 +657,6 @@
       }
     }
   ],
-  "clients": {
-    "kicker": {
-      "ca": "Confien",
-      "es": "Confían",
-      "en": "They trust",
-      "fr": "Ils font confiance"
-    },
-    "title": {
-      "ca": "Esportistes, clubs i organitzacions",
-      "es": "Deportistas, clubes y organizaciones",
-      "en": "Athletes, clubs and organisations",
-      "fr": "Athlètes, clubs et organisations"
-    },
-    "note": {
-      "ca": "Esportistes, entrenadors, famílies, professionals d'aquests clubs i organitzacions han format part de processos de treball enfocats a rendir millor, competir millor i viure millor l'esport.",
-      "es": "Deportistas, entrenadores, familias y profesionales de estos clubes y organizaciones han formado parte de procesos de trabajo enfocados en rendir mejor, competir mejor y vivir mejor el deporte.",
-      "en": "Athletes, coaches, families and professionals from these clubs and organisations have been part of working processes focused on performing better, competing better and experiencing sport in a healthier way.",
-      "fr": "Des sportifs, entraîneurs, familles et professionnels de ces clubs et organisations ont participé à des processus de travail visant à mieux performer, mieux concourir et mieux vivre le sport."
-    },
-    "items": [
-      {
-        "id": "cl-1",
-        "active": true,
-        "name": "FCBQ",
-        "image": "assets/images/fcbq.jpg"
-      },
-      {
-        "id": "cl-2",
-        "active": true,
-        "name": "C.F.S. Eixample",
-        "image": "assets/images/eixample.png"
-      },
-      {
-        "id": "cl-3",
-        "active": true,
-        "name": "A.E. Les Corts-UBAE",
-        "image": "assets/images/ubae.png"
-      },
-      {
-        "id": "cl-4",
-        "active": true,
-        "name": "Claret Llops",
-        "image": "assets/images/claret.png"
-      },
-      {
-        "id": "cl-5",
-        "active": true,
-        "name": "Campus Gigantes",
-        "image": "assets/images/gigantes.jpeg"
-      },
-      {
-        "id": "cl-6",
-        "active": true,
-        "name": "Joventut Les Corts (JLC)",
-        "image": "assets/images/jlc.png"
-      },
-      {
-        "id": "cl-7",
-        "active": true,
-        "name": "CEM Mediterrani",
-        "image": "assets/images/mediterrani.jpeg"
-      },
-      {
-        "id": "cl-8",
-        "active": true,
-        "name": "460 Level Up",
-        "image": "assets/images/level-up-460.png"
-      },
-      {
-        "id": "cl-9",
-        "active": true,
-        "name": "Modum Sport 3.60",
-        "image": "assets/images/modum-sport-360.jpg"
-      },
-      {
-        "id": "cl-10",
-        "active": true,
-        "name": "Sinergia Team & Training S.L.",
-        "image": "assets/images/sinergia.png"
-      }
-    ]
-  },
   "testimonials": [
     {
       "id": "test-1",
@@ -947,6 +885,7 @@
       "video": ""
     }
   ],
+  "gallery": [],
   "articles": [
     {
       "id": "art-1",

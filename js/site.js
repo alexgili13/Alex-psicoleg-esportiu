@@ -164,14 +164,6 @@ function renderPricing(){
     </div>`).join("");
 }
 
-function renderClients(){
-  const c = CONTENT.clients;
-  $("#clients-kicker").textContent = t(c.kicker, LANG);
-  $("#clients-title").textContent = t(c.title, LANG);
-  $("#clients-note").textContent = t(c.note, LANG);
-  $("#clients-row").innerHTML = (c.items || []).filter(i => i.active).map(i => `<img src="${i.image}" alt="${esc(i.name)}" loading="lazy">`).join("");
-}
-
 let slideIndex = 0;
 function renderTestimonials(){
   const list = (CONTENT.testimonials || []).filter(x => x.active);
@@ -199,6 +191,20 @@ function renderTestimonials(){
   $("#t-next").addEventListener("click", () => moveSlide(1, list.length));
   $$("#t-dots button").forEach(b => b.addEventListener("click", () => { slideIndex = Number(b.dataset.i); applySlide(); }));
 }
+
+function renderGallery(){
+  const grid = $("#gallery-grid");
+  if (!grid) return;
+  const list = (CONTENT.gallery || []).filter(item => item.active && item.image);
+  grid.innerHTML = list.length
+    ? list.map(item => `
+      <figure class="gallery-item">
+        <img src="${item.image}" alt="${esc(t(item.caption, LANG) || t(CONTENT.sectionHeaders.gallery.title, LANG))}" loading="lazy">
+        ${t(item.caption, LANG) ? `<figcaption>${esc(t(item.caption, LANG))}</figcaption>` : ""}
+      </figure>`).join("")
+    : `<p class="empty-state">${esc(LANG === "ca" ? "Properament hi trobaràs una selecció de la meva activitat professional." : LANG === "es" ? "Próximamente encontrarás una selección de mi actividad profesional." : LANG === "fr" ? "Vous trouverez bientôt une sélection de mon activité professionnelle." : "A selection of my professional work will be available here soon.")}</p>`;
+}
+
 function applySlide(){
   const track = $("#t-slides");
   if (track) track.style.transform = `translateX(-${slideIndex * 100}%)`;
@@ -298,9 +304,12 @@ function renderContact(){
   const igWrap = $("#contact-instagram-wrap");
   if (socials.instagram && socials.instagram.active){
     igWrap.style.display = "";
-    $("#contact-instagram").href = socials.instagram.url;
-    $("#contact-instagram").textContent = "@" + socials.instagram.url.split("/").filter(Boolean).pop();
-    $("#footer-instagram").href = socials.instagram.url;
+    const instagramUrl = socials.instagram.url;
+    const instagramUsername = new URL(instagramUrl).pathname.split("/").filter(Boolean).pop();
+    $("#contact-instagram").href = instagramUrl;
+    $("#contact-instagram").textContent = "@" + instagramUsername;
+    $("#footer-instagram").href = instagramUrl;
+    $("#footer-instagram").textContent = "@" + instagramUsername;
   } else {
     igWrap.style.display = "none";
     $("#footer-instagram").style.display = "none";
@@ -386,8 +395,8 @@ function render(){
   renderDataT();
   renderServices();
   if ($("#pricing-grid")) renderPricing();
-  renderClients();
   renderTestimonials();
+  renderGallery();
   if ($("#articles-grid")) renderArticles();
   if ($("#news-grid")) renderNews();
   if ($("#resources-grid")) renderResources();

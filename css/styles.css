@@ -255,12 +255,7 @@ h3,.h3{ font-family: var(--font-display); font-weight: 600; line-height: 1.08; f
 .price-card .duration{ font-size:.82rem; color:var(--ink-soft); }
 .price-card p{ font-size:.9rem; color:var(--ink-soft); flex:1; }
 
-/* ---------- 11. Clients / trust ---------- */
-.clients-note{ font-size:.85rem; color:var(--ink-soft); margin-bottom:28px; border-left:2px solid var(--accent); padding-left:14px; max-width:60ch; }
-.clients-row{ display:flex; flex-wrap:wrap; gap:16px; align-items:center; justify-content:center; width:100%; }
-.clients-row img{ height:64px; width:auto; max-width:160px; opacity:1; object-fit:contain; }
-
-/* ---------- 12. Testimonials ---------- */
+/* ---------- 11. Testimonials ---------- */
 .testimonial-slider{ position:relative; max-width: 780px; }
 .testimonial-track{ overflow:hidden; }
 .testimonial-slides{ display:flex; transition: transform .5s var(--ease); }
@@ -276,6 +271,13 @@ h3,.h3{ font-family: var(--font-display); font-weight: 600; line-height: 1.08; f
 .slider-dots{ display:flex; gap:6px; margin-left:8px; }
 .slider-dots button{ width:7px; height:7px; border-radius:50%; background:var(--line-strong); border:none; cursor:pointer; padding:0; }
 .slider-dots button[aria-current="true"]{ background:var(--accent); }
+
+/* ---------- 12. Gallery ---------- */
+.gallery-note{ max-width:60ch; color:var(--ink-soft); margin:0 0 28px; }
+.gallery-grid{ display:grid; grid-template-columns:repeat(3, 1fr); gap:18px; }
+.gallery-item{ margin:0; overflow:hidden; border-radius:var(--radius-m); background:var(--paper-raise); border:1px solid var(--line); }
+.gallery-item img{ display:block; width:100%; aspect-ratio:4 / 3; object-fit:cover; }
+.gallery-item figcaption{ padding:12px 14px 14px; color:var(--ink-soft); font-size:.88rem; }
 
 /* ---------- 13. News / articles / resources list ---------- */
 .grid-3{ display:grid; grid-template-columns: repeat(3,1fr); gap:22px; }
@@ -407,6 +409,7 @@ h3,.h3{ font-family: var(--font-display); font-weight: 600; line-height: 1.08; f
   .card-grid{ grid-template-columns: repeat(2,1fr); }
   .pricing-grid{ grid-template-columns: repeat(2,1fr); }
   .grid-3{ grid-template-columns: repeat(2,1fr); }
+  .gallery-grid{ grid-template-columns: repeat(2,1fr); }
   .about .container{ grid-template-columns: 1fr; }
   .about-photo{ position:static; max-width:360px; }
   .contact .container{ grid-template-columns: 1fr; }
@@ -427,7 +430,7 @@ h3,.h3{ font-family: var(--font-display); font-weight: 600; line-height: 1.08; f
   .hero .container{ grid-template-columns: 1fr; }
   .hero-visual{ order:-1; max-width:340px; }
   .hero-stats{ gap:20px; }
-  .card-grid, .pricing-grid, .grid-3, .resource-grid{ grid-template-columns: 1fr; }
+  .card-grid, .pricing-grid, .grid-3, .resource-grid, .gallery-grid{ grid-template-columns: 1fr; }
   .footer-top{ grid-template-columns:1fr; }
   .method-step{ grid-template-columns: 56px 1fr; }
   .method-step .num{ font-size:1.7rem; }
