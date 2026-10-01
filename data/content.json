@@ -49,15 +49,15 @@
     },
     "headline": {
       "ca": "La teva millor versió comença dins",
-      "es": "La mente también se entrena.",
-      "en": "The mind trains too.",
-      "fr": "L'esprit aussi s'entraîne."
+      "es": "Tu mejor versión empieza dentro",
+      "en": "Your best version starts within",
+      "fr": "Votre meilleure version commence à l'intérieur"
     },
     "subheadline": {
       "ca": "Un espai per treballar la ment, afrontar els reptes de la competició i cuidar del benestar emocional de les persones que viuen de l'esport",
-      "es": "Acompaño a deportistas, equipos y entrenadores a sostener su nivel cuando más pesa: en la presión, la lesión, la pausa y la competición.",
-      "en": "I help athletes, teams and coaches hold their level when it matters most: under pressure, through injury, in the pause, and in competition.",
-      "fr": "J'accompagne athlètes, équipes et entraîneurs à maintenir leur niveau quand cela compte le plus : sous pression, en blessure et en compétition."
+      "es": "Un espacio para trabajar la mente, afrontar los retos de la competición y cuidar del bienestar emocional de las personas que viven del deporte",
+      "en": "A space to work on the mind, face the challenges of competition, and care for the emotional wellbeing of people who make a living from sport",
+      "fr": "Un espace pour travailler l'esprit, relever les défis de la compétition et prendre soin du bien-être émotionnel des personnes qui vivent du sport"
     },
     "ctaPrimary": {
       "ca": "Comencem",
@@ -167,7 +167,7 @@
     "steps": [
       {
         "number": 1,
-        "icon": "compass",
+        "icon": "connect",
         "title": {
           "ca": "Connectar",
           "es": "Conectar",
@@ -183,7 +183,7 @@
       },
       {
         "number": 2,
-        "icon": "target",
+        "icon": "focus",
         "title": {
           "ca": "Posar focus",
           "es": "Poner foco",
@@ -199,7 +199,7 @@
       },
       {
         "number": 3,
-        "icon": "layers",
+        "icon": "build",
         "title": {
           "ca": "Construir",
           "es": "Construir",
@@ -215,7 +215,7 @@
       },
       {
         "number": 4,
-        "icon": "activity",
+        "icon": "train",
         "title": {
           "ca": "Entrenar",
           "es": "Entrenar",
@@ -231,7 +231,7 @@
       },
       {
         "number": 5,
-        "icon": "shield",
+        "icon": "release",
         "title": {
           "ca": "Alliberar",
           "es": "Liberar",
@@ -447,7 +447,6 @@
     {
       "id": "svc-4",
       "active": true,
-      "icon": "compass",
       "title": {
         "ca": "Assessorament a entrenadors i clubs",
         "es": "Asesoramiento a entrenadores y clubes",
@@ -477,7 +476,7 @@
     {
       "id": "svc-5",
       "active": true,
-      "icon": "layers",
+      "icon": "presentation",
       "title": {
         "ca": "Tallers i xerrades per a famílies",
         "es": "Talleres y charlas",
@@ -507,7 +506,7 @@
     {
       "id": "svc-6",
       "active": true,
-      "icon": "shield",
+      "icon": "podium",
       "title": {
         "ca": "Clínics i ponències",
         "es": "Servicio inactivo (ejemplo)",
@@ -661,6 +660,7 @@
     {
       "id": "test-1",
       "active": true,
+      "icon": "compass",
       "name": "MS",
       "role": {
         "ca": "Entrenador de bàsquet",

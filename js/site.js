@@ -176,7 +176,7 @@ function renderTestimonials(){
         <div class="t-slide">
           <blockquote>"${esc(t(x.text, LANG))}"</blockquote>
           <footer>
-            <img src="${x.photo}" alt="" loading="lazy">
+            <div class="testimonial-avatar ${testimonialProfileIcon(x.role)}">${iconSVG(testimonialProfileIcon(x.role))}</div>
             <div class="who"><b>${esc(x.name)}</b><span>${esc(t(x.role, LANG))}${x.club ? " · " + esc(x.club) : ""}</span></div>
           </footer>
         </div>`).join("")}
@@ -190,6 +190,13 @@ function renderTestimonials(){
   $("#t-prev").addEventListener("click", () => moveSlide(-1, list.length));
   $("#t-next").addEventListener("click", () => moveSlide(1, list.length));
   $$("#t-dots button").forEach(b => b.addEventListener("click", () => { slideIndex = Number(b.dataset.i); applySlide(); }));
+}
+
+function testimonialProfileIcon(role){
+  const label = t(role, LANG).toLowerCase();
+  if (/fam|family|famille/.test(label)) return "users";
+  if (/entren|coach|coordin|entra[iî]neur|coordinateur/.test(label)) return "compass";
+  return "activity";
 }
 
 function renderGallery(){

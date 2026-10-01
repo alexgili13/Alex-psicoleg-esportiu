@@ -1,5 +1,12 @@
 /* Petita llibreria d'icones SVG en línia (sense dependències externes). */
 export const ICONS = {
+  connect: '<circle cx="7.5" cy="12" r="3.5"/><circle cx="16.5" cy="12" r="3.5"/><path d="M10.5 10.5l3-3M10.5 13.5l3 3"/>',
+  focus: '<path d="M3 12s3.2-5 9-5 9 5 9 5-3.2 5-9 5-9-5-9-5z"/><circle cx="12" cy="12" r="2.2"/>',
+  build: '<path d="M4 19h16M5 15h5v4H5zM10 11h5v4h-5zM15 7h4v4h-4z"/>',
+  train: '<path d="M4 18l5-5 3 2 7-8"/><path d="M15 7h4v4"/><circle cx="4" cy="18" r="1" fill="currentColor" stroke="none"/>',
+  release: '<circle cx="12" cy="12" r="2.5"/><path d="M12 3v4M12 17v4M3 12h4M17 12h4M5.6 5.6l2.8 2.8M15.6 15.6l2.8 2.8M18.4 5.6l-2.8 2.8M8.4 15.6l-2.8 2.8"/>',
+  presentation: '<rect x="4" y="5" width="16" height="11" rx="1"/><path d="M12 16v4M8 20h8M8 9h8M8 12h5"/>',
+  podium: '<path d="M5 20h14M7 20v-6h4v6M13 20V9h4v11M10 14h3"/><circle cx="15" cy="5" r="2"/><path d="M15 7v2"/>',
   compass: '<circle cx="12" cy="12" r="9"/><path d="M15 9l-2 5-5 2 2-5z"/>',
   target: '<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r=".6" fill="currentColor" stroke="none"/>',
   layers: '<path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/>',
