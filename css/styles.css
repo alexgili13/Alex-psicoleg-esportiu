@@ -305,6 +305,9 @@ h3,.h3{ font-family: var(--font-display); font-weight: 600; line-height: 1.08; f
 .gallery-grid{ display:grid; grid-template-columns:repeat(3, 1fr); gap:18px; }
 .gallery-item{ margin:0; overflow:hidden; border-radius:var(--radius-m); background:var(--paper-raise); border:1px solid var(--line); }
 .gallery-item img{ display:block; width:100%; aspect-ratio:4 / 3; object-fit:cover; object-position:center 22%; }
+.gallery-item img[src*="gallery-05"],
+.gallery-item img[src*="gallery-10"]{ object-position:center 5%; }
+.gallery-item img[src*="gallery-03"]{ object-position:center 80%; }
 .gallery-item figcaption{ padding:12px 14px 14px; color:var(--ink-soft); font-size:.88rem; }
 
 /* ---------- 13. News / articles / resources list ---------- */

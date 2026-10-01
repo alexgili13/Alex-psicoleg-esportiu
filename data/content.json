@@ -902,8 +902,7 @@
     { "id": "gallery-14", "active": true, "image": "assets/images/gallery-14.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } },
     { "id": "gallery-15", "active": true, "image": "assets/images/gallery-15.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } },
     { "id": "gallery-16", "active": true, "image": "assets/images/gallery-16.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } },
-    { "id": "gallery-17", "active": true, "image": "assets/images/gallery-17.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } },
-    { "id": "gallery-18", "active": true, "image": "assets/images/gallery-18.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } }
+    { "id": "gallery-17", "active": true, "image": "assets/images/gallery-17.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } }
   ],
   "articles": [
     {
