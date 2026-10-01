@@ -9,7 +9,28 @@
 <link rel="stylesheet" href="css/styles.css?v=20261007">
 </head>
 <body>
-<header class="site-header"><div class="container"><a href="index.html" class="brand"><span class="dot"></span>Àlex Gili</a><div class="lang-switch" id="lang-switch" role="group" aria-label="Selecciona idioma"></div></div></header>
+<header class="site-header" id="site-header">
+  <div class="container">
+    <a href="index.html" class="brand"><span class="dot" aria-hidden="true"></span><span>Àlex Gili</span></a>
+    <nav class="main-nav" id="main-nav" aria-label="Navegació principal">
+      <a href="index.html#about" data-nav="about">Qui soc</a>
+      <a href="index.html#method" data-nav="method">Mètode</a>
+      <a href="index.html#services" data-nav="services">Serveis</a>
+      <a href="index.html#testimonials" data-nav="testimonials">Valoracions</a>
+      <a href="index.html#gallery" data-nav="gallery">Galeria</a>
+      <a href="index.html#contact" data-nav="contact">Contacte</a>
+      <div class="lang-switch" id="lang-switch" role="group" aria-label="Selecciona idioma"></div>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Canvia entre mode clar i fosc">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.2 4.2l1.6 1.6M18.2 18.2l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.2 19.8l1.6-1.6M18.2 5.8l1.6-1.6"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8.5 8.5 0 1110 3.5 6.8 6.8 0 0020 14.5z"/></svg>
+      </button>
+      <a href="index.html#contact" class="btn btn-accent btn-sm" id="nav-cta">Comencem</a>
+      <button class="hamburger" id="hamburger" type="button" aria-label="Obre el menú" aria-expanded="false" aria-controls="main-nav"><span></span></button>
+    </div>
+  </div>
+</header>
 <main class="legal-page">
   <div class="container">
     <h1 id="legal-title">Avís legal</h1>
@@ -112,7 +133,10 @@
   </div>
 </main>
 <script type="module">
-import { LANGS, LANG_LABELS, getLang, setLang } from "./js/i18n.js";
+import { LANGS, LANG_LABELS, NAV_LABELS, getLang, setLang } from "./js/i18n.js";
+import { initTheme, toggleTheme } from "./js/theme.js";
+
+initTheme();
 
 const titles = {
   ca: "Avís legal",
@@ -120,9 +144,12 @@ const titles = {
   en: "Legal Notice",
   fr: "Mentions légales"
 };
+const ctas = { ca: "Comencem", es: "Hablemos", en: "Let's talk", fr: "Discutons" };
 const switcher = document.querySelector("#lang-switch");
 const title = document.querySelector("#legal-title");
 const sections = [...document.querySelectorAll("[data-legal-language]")];
+const navLinks = [...document.querySelectorAll("[data-nav]")];
+const cta = document.querySelector("#nav-cta");
 
 function renderLegal(){
   const lang = getLang();
@@ -130,6 +157,9 @@ function renderLegal(){
   document.title = `${titles[lang]} — Àlex Gili`;
   title.textContent = titles[lang];
   sections.forEach(section => { section.hidden = section.dataset.legalLanguage !== lang; });
+  const labels = NAV_LABELS[lang] || NAV_LABELS.ca;
+  navLinks.forEach(a => { if (labels[a.dataset.nav]) a.textContent = labels[a.dataset.nav]; });
+  if (cta) cta.textContent = ctas[lang] || ctas.ca;
   switcher.innerHTML = LANGS.map(item => `<button type="button" data-lang="${item}" aria-current="${item === lang}">${LANG_LABELS[item]}</button>`).join("");
 }
 
@@ -139,6 +169,16 @@ switcher.addEventListener("click", event => {
   setLang(button.dataset.lang);
   renderLegal();
 });
+
+const hamburger = document.querySelector("#hamburger");
+const closeMenu = () => { document.body.classList.remove("nav-open"); hamburger.setAttribute("aria-expanded", "false"); };
+hamburger.addEventListener("click", () => {
+  const open = document.body.classList.toggle("nav-open");
+  hamburger.setAttribute("aria-expanded", String(open));
+});
+navLinks.forEach(a => a.addEventListener("click", closeMenu));
+document.addEventListener("keydown", event => { if (event.key === "Escape") closeMenu(); });
+document.querySelector("#theme-toggle").addEventListener("click", () => toggleTheme());
 
 renderLegal();
 </script>
