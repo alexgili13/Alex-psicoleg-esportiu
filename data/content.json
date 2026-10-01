@@ -67,9 +67,9 @@
     },
     "ctaSecondary": {
       "ca": "Com ho farem",
-      "es": "Conocer el método",
-      "en": "See the method",
-      "fr": "Découvrir la méthode"
+      "es": "Cómo lo haremos",
+      "en": "How we'll do it",
+      "fr": "Comment allons-nous procéder"
     },
     "stats": [
       {
@@ -94,9 +94,9 @@
         "value": "+100",
         "label": {
           "ca": "famílies orientades",
-          "es": "clubes y federaciones",
-          "en": "clubs and federations",
-          "fr": "clubs et fédérations"
+          "es": "Familias orientadas",
+          "en": "Guided families",
+          "fr": "Familles accompagnées"
         }
       }
     ],
@@ -104,10 +104,10 @@
   },
   "about": {
     "kicker": {
-      "ca": "La mirada",
-      "es": "La mirada",
-      "en": "The perspective",
-      "fr": "Le regard"
+      "ca": "Qui soc",
+      "es": "Quién soy",
+      "en": "About",
+      "fr": "Qui suis-je"
     },
     "title": {
       "ca": "La persona darrere del psicòleg esportiu.",
@@ -373,9 +373,9 @@
       "price": "60€",
       "duration": {
         "ca": "Sessió de 60 min",
-        "es": "Sesión de 50 min",
-        "en": "50-minute session",
-        "fr": "Séance de 50 min"
+        "es": "Sesión de 60 min",
+        "en": "60-minute session",
+        "fr": "Séance de 60 min"
       },
       "cta": {
         "ca": "Activa't",
@@ -400,12 +400,12 @@
         "en": "Cohesion, communication and collective pressure management for competitive teams.",
         "fr": "Cohésion, communication et gestion de la pression collective."
       },
-      "price": "110 € / sessió",
+      "price": "110€ / sessió",
       "duration": {
         "ca": "1 hora",
-        "es": "A medida del club",
-        "en": "Tailored to the club",
-        "fr": "Sur mesure pour le club"
+        "es": "1 hora",
+        "en": "1 hour",
+        "fr": "1 heure"
       },
       "cta": {
         "ca": "Potenciem l'equip",
@@ -430,7 +430,7 @@
         "en": "Specific mental-management protocols for key moments: trials, finals, selections.",
         "fr": "Protocoles spécifiques pour les moments clés : essais, finales, sélections."
       },
-      "price": "165 €",
+      "price": "165€",
       "duration": {
         "ca": "Pack de 3 sessions, 60 minuts per sessió",
         "es": "Pack de 3 sesiones",
