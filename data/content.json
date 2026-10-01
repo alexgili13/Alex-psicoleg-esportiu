@@ -885,7 +885,26 @@
       "video": ""
     }
   ],
-  "gallery": [],
+  "gallery": [
+    { "id": "gallery-01", "active": true, "image": "assets/images/gallery-01.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } },
+    { "id": "gallery-02", "active": true, "image": "assets/images/gallery-02.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } },
+    { "id": "gallery-03", "active": true, "image": "assets/images/gallery-03.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } },
+    { "id": "gallery-04", "active": true, "image": "assets/images/gallery-04.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } },
+    { "id": "gallery-05", "active": true, "image": "assets/images/gallery-05.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } },
+    { "id": "gallery-06", "active": true, "image": "assets/images/gallery-06.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } },
+    { "id": "gallery-07", "active": true, "image": "assets/images/gallery-07.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } },
+    { "id": "gallery-08", "active": true, "image": "assets/images/gallery-08.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } },
+    { "id": "gallery-09", "active": true, "image": "assets/images/gallery-09.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } },
+    { "id": "gallery-10", "active": true, "image": "assets/images/gallery-10.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } },
+    { "id": "gallery-11", "active": true, "image": "assets/images/gallery-11.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } },
+    { "id": "gallery-12", "active": true, "image": "assets/images/gallery-12.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } },
+    { "id": "gallery-13", "active": true, "image": "assets/images/gallery-13.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } },
+    { "id": "gallery-14", "active": true, "image": "assets/images/gallery-14.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } },
+    { "id": "gallery-15", "active": true, "image": "assets/images/gallery-15.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } },
+    { "id": "gallery-16", "active": true, "image": "assets/images/gallery-16.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } },
+    { "id": "gallery-17", "active": true, "image": "assets/images/gallery-17.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } },
+    { "id": "gallery-18", "active": true, "image": "assets/images/gallery-18.jpeg", "caption": { "ca": "", "es": "", "en": "", "fr": "" } }
+  ],
   "articles": [
     {
       "id": "art-1",
