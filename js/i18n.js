@@ -41,7 +41,7 @@ export const UI_STRINGS = {
     formName: "Nom", formEmail: "Email", formSubject: "Assumpte", formMessage: "Missatge",
     messageSent: "Missatge enviat. Gràcies!", messageError: "No s'ha pogut enviar. Torna-ho a provar o escriu-me per email.",
     phone: "Telèfon", whatsapp: "WhatsApp", whatsappCta: "Escriu-me per WhatsApp",
-    cookieText: "Utilitzem només cookies tècniques necessàries per al funcionament de la web (per exemple, per recordar la teva preferència de mode fosc i idioma). No fem servir cookies de seguiment ni analítica de tercers.",
+    cookieText: "Utilitzem només cookies tècniques necessàries per al funcionament de la web (per exemple, per recordar la teva preferència de mode fosc i idioma). No fem servir cookies de seguiment; només comptem visites de forma anònima i sense cookies.",
     cookieAccept: "D'acord", cookiePolicy: "Més informació",
     emptyNews: "Encara no hi ha entrades publicades.", emptyArticles: "Encara no hi ha articles publicats.",
     emptyResources: "Encara no hi ha recursos publicats.", noTestimonials: "Encara no hi ha testimonis publicats."
@@ -53,7 +53,7 @@ export const UI_STRINGS = {
     formName: "Nombre", formEmail: "Email", formSubject: "Asunto", formMessage: "Mensaje",
     messageSent: "Mensaje enviado. ¡Gracias!", messageError: "No se ha podido enviar. Inténtalo de nuevo o escríbeme por email.",
     phone: "Teléfono", whatsapp: "WhatsApp", whatsappCta: "Escríbeme por WhatsApp",
-    cookieText: "Solo usamos cookies técnicas necesarias para el funcionamiento de la web (por ejemplo, para recordar tu preferencia de modo oscuro e idioma). No usamos cookies de seguimiento ni analítica de terceros.",
+    cookieText: "Solo usamos cookies técnicas necesarias para el funcionamiento de la web (por ejemplo, para recordar tu preferencia de modo oscuro e idioma). No usamos cookies de seguimiento; solo contamos visitas de forma anónima y sin cookies.",
     cookieAccept: "De acuerdo", cookiePolicy: "Más información",
     emptyNews: "Todavía no hay entradas publicadas.", emptyArticles: "Todavía no hay artículos publicados.",
     emptyResources: "Todavía no hay recursos publicados.", noTestimonials: "Todavía no hay testimonios publicados."
@@ -65,7 +65,7 @@ export const UI_STRINGS = {
     formName: "Name", formEmail: "Email", formSubject: "Subject", formMessage: "Message",
     messageSent: "Message sent. Thank you!", messageError: "Could not send. Please try again or email me.",
     phone: "Phone", whatsapp: "WhatsApp", whatsappCta: "Message me on WhatsApp",
-    cookieText: "We only use technical cookies needed for the site to work (for example, to remember your dark mode and language preference). We do not use third-party tracking or analytics cookies.",
+    cookieText: "We only use technical cookies needed for the site to work (for example, to remember your dark mode and language preference). We do not use tracking cookies; we only count visits anonymously, without cookies.",
     cookieAccept: "Got it", cookiePolicy: "Learn more",
     emptyNews: "No updates published yet.", emptyArticles: "No articles published yet.",
     emptyResources: "No resources published yet.", noTestimonials: "No testimonials published yet."
@@ -77,7 +77,7 @@ export const UI_STRINGS = {
     formName: "Nom", formEmail: "Email", formSubject: "Sujet", formMessage: "Message",
     messageSent: "Message envoyé. Merci !", messageError: "Échec de l'envoi. Réessayez ou écrivez-moi par email.",
     phone: "Téléphone", whatsapp: "WhatsApp", whatsappCta: "Écrivez-moi sur WhatsApp",
-    cookieText: "Nous utilisons uniquement des cookies techniques nécessaires au fonctionnement du site. Aucun cookie de suivi tiers.",
+    cookieText: "Nous utilisons uniquement des cookies techniques nécessaires au fonctionnement du site. Aucun cookie de suivi ; nous comptons seulement les visites de façon anonyme, sans cookies.",
     cookieAccept: "D'accord", cookiePolicy: "En savoir plus",
     emptyNews: "Aucune actualité publiée pour le moment.", emptyArticles: "Aucun article publié pour le moment.",
     emptyResources: "Aucune ressource publiée pour le moment.", noTestimonials: "Aucun témoignage publié pour le moment."
