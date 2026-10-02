@@ -6,7 +6,7 @@
 <title>Política de cookies i emmagatzematge local — Àlex Gili</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
 <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css?v=20261007">
+<link rel="stylesheet" href="css/styles.css?v=20261008">
 </head>
 <body>
 <header class="site-header" id="site-header">
@@ -108,9 +108,12 @@
     </section>
   </div>
 </main>
+<footer class="site-footer" id="site-footer"></footer>
 <script type="module">
 import { LANGS, LANG_LABELS, NAV_LABELS, getLang, setLang } from "./js/i18n.js";
 import { initTheme, toggleTheme } from "./js/theme.js";
+import { loadContent } from "./js/store.js";
+import { renderFooter } from "./js/footer.js";
 
 initTheme();
 
@@ -126,9 +129,11 @@ const title = document.querySelector("#cookies-title");
 const sections = [...document.querySelectorAll("[data-cookies-language]")];
 const navLinks = [...document.querySelectorAll("[data-nav]")];
 const cta = document.querySelector("#nav-cta");
+let content = null;
 
 function renderCookies(){
   const lang = getLang();
+  renderFooter(lang, content);
   document.documentElement.lang = lang;
   document.title = `${titles[lang]} — Àlex Gili`;
   title.textContent = titles[lang];
@@ -157,6 +162,7 @@ document.addEventListener("keydown", event => { if (event.key === "Escape") clos
 document.querySelector("#theme-toggle").addEventListener("click", () => toggleTheme());
 
 renderCookies();
+loadContent().then(({ data }) => { content = data; renderCookies(); }).catch(err => console.error(err));
 </script>
 </body>
 </html>

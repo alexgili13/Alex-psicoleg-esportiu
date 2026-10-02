@@ -84,6 +84,13 @@ export const UI_STRINGS = {
   }
 };
 
+export const FOOTER_STRINGS = {
+  ca: { navigation: "Navegació", contact: "Contacte", privacy: "Privacitat", cookies: "Cookies", legal: "Avís legal" },
+  es: { navigation: "Navegación", contact: "Contacto", privacy: "Privacidad", cookies: "Cookies", legal: "Aviso legal" },
+  en: { navigation: "Navigation", contact: "Contact", privacy: "Privacy", cookies: "Cookies", legal: "Legal notice" },
+  fr: { navigation: "Navigation", contact: "Contact", privacy: "Confidentialité", cookies: "Cookies", legal: "Mentions légales" }
+};
+
 export function ui(key, lang = getLang()){
   return (UI_STRINGS[lang] && UI_STRINGS[lang][key]) || UI_STRINGS.ca[key] || key;
 }

@@ -2,6 +2,7 @@ import { loadContent } from "./store.js";
 import { getLang, t, ui } from "./i18n.js";
 import { initTheme, toggleTheme } from "./theme.js";
 import { iconSVG } from "./icons.js";
+import { renderFooter } from "./footer.js";
 
 initTheme();
 document.getElementById("theme-toggle").addEventListener("click", () => toggleTheme());
@@ -18,9 +19,11 @@ function fmtDate(iso){
 function esc(str = ""){ return String(str).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])); }
 
 (async function init(){
+  renderFooter(LANG);
   const root = document.getElementById("post-root");
   try{
     const { data } = await loadContent();
+    renderFooter(LANG, data);
     const list = type === "news" ? data.news : data.articles;
     const item = (list || []).find(x => x.id === id && x.active);
     if (!item){
@@ -31,7 +34,6 @@ function esc(str = ""){ return String(str).replace(/[&<>"']/g, c => ({ "&": "&am
     document.title = `${t(item.title, LANG)} — ${data.site.name}`;
     document.getElementById("page-description").content = t(item.excerpt || item.intro, LANG);
     document.getElementById("brand-name").textContent = data.site.name;
-    document.getElementById("footer-copy").textContent = `© ${new Date().getFullYear()} ${data.site.name}`;
     document.getElementById("back-link").textContent = "← " + ui("back", LANG);
 
     const body = type === "news" ? item.content : item.body;

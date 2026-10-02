@@ -2,6 +2,7 @@ import { loadContent } from "./store.js";
 import { LANGS, LANG_LABELS, NAV_LABELS, getLang, setLang, t, ui } from "./i18n.js";
 import { initTheme, toggleTheme } from "./theme.js";
 import { iconSVG } from "./icons.js";
+import { renderFooter } from "./footer.js";
 
 initTheme();
 
@@ -95,7 +96,6 @@ function initReveal(){
 function renderHero(){
   const h = CONTENT.hero, site = CONTENT.site;
   $("#brand-name").textContent = site.name;
-  $("#footer-name").textContent = site.name;
   $("#hero-eyebrow").textContent = t(h.eyebrow, LANG);
   $("#hero-headline").textContent = t(h.headline, LANG);
   $("#hero-sub").textContent = t(h.subheadline, LANG);
@@ -278,8 +278,6 @@ function renderContact(){
   $("#contact-text").textContent = t(c.text, LANG);
   $("#contact-email").textContent = site.email;
   $("#contact-email").href = "mailto:" + site.email;
-  $("#footer-email").textContent = site.email;
-  $("#footer-email").href = "mailto:" + site.email;
   const locationLabels = { ca: "Ubicació", es: "Ubicación", en: "Location", fr: "Localisation" };
   $("#contact-location-label").textContent = locationLabels[LANG] || locationLabels.ca;
   $("#contact-location").textContent = t(site.location, LANG);
@@ -315,11 +313,8 @@ function renderContact(){
     const instagramUsername = new URL(instagramUrl).pathname.split("/").filter(Boolean).pop();
     $("#contact-instagram").href = instagramUrl;
     $("#contact-instagram").textContent = "@" + instagramUsername;
-    $("#footer-instagram").href = instagramUrl;
-    $("#footer-instagram").textContent = "@" + instagramUsername;
   } else {
     igWrap.style.display = "none";
-    $("#footer-instagram").style.display = "none";
   }
 
   $("#label-name").textContent = ui("formName", LANG);
@@ -331,8 +326,7 @@ function renderContact(){
     ? (LANG === "ca" ? "En enviar, s'obrirà el teu gestor de correu amb el missatge ja preparat." : LANG === "es" ? "Al enviar, se abrirá tu gestor de correo con el mensaje preparado." : LANG === "fr" ? "L'envoi ouvrira votre messagerie avec le message prêt." : "Submitting opens your email client with the message ready.")
     : "";
 
-  $("#footer-tagline").textContent = t(CONTENT.footer.tagline, LANG);
-  $("#footer-copy").textContent = `© ${new Date().getFullYear()} ${site.name}`;
+  renderFooter(LANG, CONTENT, { home: true });
 }
 
 function wireContactForm(){
@@ -419,6 +413,11 @@ function render(){
     render();
     wireCookies();
     initReveal();
+    // Les seccions es pinten per JS: cal reposicionar l'àncora un cop tenen alçada real.
+    if (location.hash){
+      const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+      if (target) target.scrollIntoView();
+    }
   }catch(err){
     console.error(err);
     $("#main").innerHTML = `<div class="container" style="padding:80px 0;"><h2>No s'ha pogut carregar el contingut</h2><p>Comprova que estàs servint aquesta pàgina des d'un servidor local (no obrint l'index.html directament amb doble clic) i que el fitxer <code>data/content.json</code> existeix. Consulta el README per a instruccions.</p></div>`;
