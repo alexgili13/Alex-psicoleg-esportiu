@@ -44,8 +44,8 @@
     "eyebrow": {
       "ca": "Psicologia per a l'alt rendiment i el desenvolupament personal",
       "es": "Psicología para el alto rendimiento y el desarrollo personal",
-      "en": "High-performance psychology",
-      "fr": "Psychologie de la haute performance"
+      "en": "Psychology for high performance and personal development",
+      "fr": "Psychologie pour la haute performance et le développement personnel"
     },
     "headline": {
       "ca": "La teva millor versió comença dins",
@@ -61,9 +61,9 @@
     },
     "ctaPrimary": {
       "ca": "Comencem",
-      "es": "Hablemos",
-      "en": "Let's talk",
-      "fr": "Discutons"
+      "es": "Empecemos",
+      "en": "Let's get started",
+      "fr": "Commençons"
     },
     "ctaSecondary": {
       "ca": "Com ho farem",
@@ -85,9 +85,9 @@
         "value": "+105",
         "label": {
           "ca": "entrenadors assessorats",
-          "es": "temporadas en competición",
-          "en": "seasons in competition",
-          "fr": "saisons en compétition"
+          "es": "entrenadores asesorados",
+          "en": "coaches supported",
+          "fr": "entreîneurs accompagnés"
         }
       },
       {
@@ -154,8 +154,8 @@
   "method": {
     "kicker": {
       "ca": "La manera",
-      "es": "La manera",
-      "en": "The approach",
+      "es": "El método",
+      "en": "The method",
       "fr": "La méthode"
     },
     "title": {
@@ -360,15 +360,15 @@
       "icon": "user",
       "title": {
         "ca": "Sessions individuals",
-        "es": "Psicología deportiva individual",
-        "en": "Individual sport psychology",
-        "fr": "Psychologie du sport individuelle"
+        "es": "Sesiones individuales",
+        "en": "Individual sessions",
+        "fr": "Séances individuelles"
       },
       "description": {
         "ca": "Treball un a un amb l'esportista per a objectius de rendiment i benestar. El jugador/a treballa durant la sessió i continua amb la seva millora a casa mitjançant un seguiment continuat.",
-        "es": "Trabajo uno a uno con el deportista para objetivos de rendimiento y bienestar.",
-        "en": "One-to-one work with the athlete on performance and wellbeing goals.",
-        "fr": "Travail individuel avec l'athlète sur la performance et le bien-être."
+        "es": "Trabajo uno a uno con el deportista para objetivos de rendimiento y bienestar. El jugador/a trabaja durante la sesión y continúa con su mejora en casa mediante un seguimiento continuado.",
+        "en": "One-to-one work with the athlete on performance and wellbeing goals. The athlete works during the session and continues improving at home through ongoing follow-up.",
+        "fr": "Travail individuel avec l'athlète sur la performance et le bien-être. La personne accompagnée travaille pendant la séance et poursuit son amélioration à la maison grâce à un suivi continu."
       },
       "price": "60€",
       "duration": {
@@ -379,9 +379,9 @@
       },
       "cta": {
         "ca": "Activa't",
-        "es": "Reservar sesión",
-        "en": "Book a session",
-        "fr": "Réserver une séance"
+        "es": "Actívate",
+        "en": "Get started",
+        "fr": "Activez-vous"
       }
     },
     {
@@ -396,9 +396,9 @@
       },
       "description": {
         "ca": "Cohesió, comunicació, gestió de conflictes i gestió de la pressió i l'assoliment d'objectius en equips competitius.",
-        "es": "Cohesión, comunicación y gestión de la presión colectiva en equipos competitivos.",
-        "en": "Cohesion, communication and collective pressure management for competitive teams.",
-        "fr": "Cohésion, communication et gestion de la pression collective."
+        "es": "Cohesión, comunicación, gestión de conflictos y gestión de la presión y la consecución de objetivos en equipos competitivos.",
+        "en": "Cohesion, communication, conflict management, and managing pressure and achieving goals in competitive teams.",
+        "fr": "Cohésion, communication, gestion des conflits, gestion de la pression et atteinte des objectifs au sein d’équipes compétitives."
       },
       "price": "110€ / sessió",
       "duration": {
@@ -409,9 +409,9 @@
       },
       "cta": {
         "ca": "Potenciem l'equip",
-        "es": "Pedir información",
-        "en": "Ask for details",
-        "fr": "Demander des informations"
+        "es": "Potenciemos el equipo",
+        "en": "Strengthen the team",
+        "fr": "Renforçons l’équipe"
       }
     },
     {
@@ -426,22 +426,22 @@
       },
       "description": {
         "ca": "Treball específic de gestió mental per a moments clau: proves, finals, seleccions.",
-        "es": "Protocolos específicos de gestión mental para momentos clave: pruebas, finales, selecciones.",
-        "en": "Specific mental-management protocols for key moments: trials, finals, selections.",
-        "fr": "Protocoles spécifiques pour les moments clés : essais, finales, sélections."
+        "es": "Trabajo específico de gestión mental para momentos clave: pruebas, finales, selecciones.",
+        "en": "Specific mental preparation for key moments: trials, finals and selections.",
+        "fr": "Travail spécifique de préparation mentale pour les moments clés : essais, finales et sélections."
       },
       "price": "165€",
       "duration": {
         "ca": "Pack de 3 sessions, 60 minuts per sessió",
-        "es": "Pack de 3 sesiones",
-        "en": "3-session pack",
-        "fr": "Pack de 3 séances"
+        "es": "Pack de 3 sesiones, 60 minutos por sesión",
+        "en": "3-session pack, 60 minutes per session",
+        "fr": "Pack de 3 séances, 60 minutes par séance"
       },
       "cta": {
         "ca": "Prepara't",
-        "es": "Quiero prepararme",
-        "en": "I want to prepare",
-        "fr": "Je veux me préparer"
+        "es": "Prepárate",
+        "en": "Get Ready",
+        "fr": "Préparez-vous"
       }
     },
     {
@@ -455,22 +455,22 @@
       },
       "description": {
         "ca": "Suport a cossos tècnics per integrar la vessant psicològica en la planificació esportiva i treballar les habilitats mentals dels seus equips durant els entrenaments. Material de treball per la temporada",
-        "es": "Soporte a cuerpos técnicos para integrar la vertiente psicológica en la planificación deportiva.",
-        "en": "Support for coaching staff to integrate the psychological side into sporting planning.",
-        "fr": "Accompagnement des staffs techniques pour intégrer la dimension psychologique."
+        "es": "Soporte a cuerpos técnicos para integrar la vertiente psicológica en la planificación deportiva y trabajar las habilidades mentales de sus equipos durante los entrenamientos. Material de trabajo para la temporada",
+        "en": "Support for coaching staff to integrate the psychological side into sports planning and develop their teams’ mental skills during training sessions. Working materials for the season.",
+        "fr": "Accompagnement des équipes techniques pour intégrer la dimension psychologique dans la planification sportive et développer les habiletés mentales de leurs équipes pendant les entraînements. Supports de travail pour la saison."
       },
-      "price": "405 €",
+      "price": "405€",
       "duration": {
         "ca": "Programa de 3 sessions per temporada",
-        "es": "Formato flexible",
-        "en": "Flexible format",
-        "fr": "Format flexible"
+        "es": "Programa de 3 sesiones por temporada",
+        "en": "3-session programme per season",
+        "fr": "Programme de 3 séances par saison"
       },
       "cta": {
         "ca": "Treballem junts",
-        "es": "Hablemos",
-        "en": "Let's talk",
-        "fr": "Discutons-en"
+        "es": "Trabajemos juntos",
+        "en": "Let's work together",
+        "fr": "Travaillons ensemble"
       }
     },
     {
@@ -489,18 +489,18 @@
         "en": "Group sessions on emotional management, focus and high-performance habits.",
         "fr": "Sessions collectives sur la gestion émotionnelle et la concentration."
       },
-      "price": "395 €",
+      "price": "395€",
       "duration": {
         "ca": "3 sessions de 60 minuts",
-        "es": "60–90 min",
-        "en": "60–90 min",
-        "fr": "60–90 min"
+        "es": "3 sesiones de 60 minutos",
+        "en": "3 sessions of 60 minutes",
+        "fr": "3 séances de 60 minutes"
       },
       "cta": {
         "ca": "Parlem-ne",
-        "es": "Solicitar taller",
-        "en": "Request a workshop",
-        "fr": "Demander un atelier"
+        "es": "Hablemos",
+        "en": "Let's talk",
+        "fr": "Parlons-en"
       }
     },
     {
@@ -509,15 +509,15 @@
       "icon": "podium",
       "title": {
         "ca": "Clínics i ponències",
-        "es": "Servicio inactivo (ejemplo)",
-        "en": "Inactive service (example)",
-        "fr": "Service inactif (exemple)"
+        "es": "Clínics y ponencias",
+        "en": "Clinics and talks",
+        "fr": "Clíniques et conférences"
       },
       "description": {
         "ca": "Formacions magistrals i pràctiques per aprendre a aplicar les principals eines psicològiques en el dia a dia dels esportistes",
-        "es": "Este servicio tiene active=false en el admin y por eso no se muestra en la web.",
-        "en": "This service has active=false in the admin, so it doesn't show on the site.",
-        "fr": "Ce service est désactivé et n'apparaît donc pas sur le site."
+        "es": "Formaciones magistrales y prácticas para aprender a aplicar las principales herramientas psicológicas en el día a día de los deportistas.",
+        "en": "Expert-led and practical sessions to learn how to apply key psychological tools in athletes’ day-to-day lives.",
+        "fr": "Formations théoriques et pratiques pour apprendre à appliquer les principaux outils psychologiques au quotidien des sportifs."
       },
       "price": "A convenir",
       "duration": {
@@ -530,7 +530,7 @@
         "ca": "Proposa",
         "es": "Propón",
         "en": "Suggest",
-        "fr": "Propose"
+        "fr": "Proposez"
       }
     }
   ],
@@ -1064,7 +1064,7 @@
       "ca": "Escriu-me explicant breument la teva situació i et respondré en menys de 12 hores per concretar una primera trobada.",
       "es": "Escríbeme explicando brevemente tu situación y te responderé en menos de 12 horas para concretar un primer encuentro.",
       "en": "Write to me with a brief outline of your situation and I'll reply within 12 hours to arrange a first meeting.",
-      "fr": "Écrivez-moi en décrivant brièvement votre situation ; je réponds sous 12 heures."
+      "fr": "Écris-moi en m’expliquant brièvement ta situation et je te répondrai dans les 12 heures pour convenir d’un premier rendez-vous."
     },
     "formEndpoint": "",
     "formProvider": "mailto"
